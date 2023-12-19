@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+/*const MiniCssExtractPlugin = require("mini-css-extract-plugin");*/
 
 module.exports = {
     entry: './src/index.js',
@@ -9,8 +10,10 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'public', 'index.html')
-        })
+            template: path.join(__dirname, 'public', 'index.html'),
+            /*favicon: "./src/assets/images/favicon.ico"*/
+        }),
+        /*new MiniCssExtractPlugin()*/
     ],
     devServer: {
         static: {
@@ -24,7 +27,15 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: ["babel-loader"]
-            }
+            },
+            /*{
+                test: /\.(gif|svg|jpg|png)$/,
+                loader: "file-loader"
+            },
+            {
+                test: /\.css$/i,
+                use: [MiniCssExtractPlugin.loader, "css-loader"],
+            }*/
         ]
     },
     resolve: {
