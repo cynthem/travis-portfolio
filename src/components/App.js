@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <a href={`/temper/1`}>Testing</a>
     </div>
   );
 }
