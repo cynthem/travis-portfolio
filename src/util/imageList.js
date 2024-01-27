@@ -1,7 +1,10 @@
-import contact from "../assets/images/art/Contact_Background.png";
+import homeMain from "../assets/images/art/Home_Background.png";
+import contactMain from "../assets/images/art/Contact_Background.png";
+
 
 const imageList = [
-    contact,
+    homeMain,
+    contactMain,
 ];
 
 export default imageList;
