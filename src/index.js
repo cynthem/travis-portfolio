@@ -3,6 +3,8 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./routes/App";
 import ErrorPage from "./routes/ErrorPage";
+import Home from "./routes/Home";
+import Resume from "./routes/Resume";
 import Contact from "./routes/Contact";
 import "./sass/main.scss";
 
