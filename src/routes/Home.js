@@ -1,5 +1,5 @@
 import React from "react";
-import ParallaxFull from "../components/ParallaxFull";
+import ParallaxFull from "../components/ProjectImage";
 import ProjectContainer from "../components/ProjectContainer";
 
 export default function Home() {
