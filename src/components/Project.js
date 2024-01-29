@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectImage from "./ProjectImage";
+import { Parallax } from "react-parallax";
 import ProjectDescription from "./ProjectDescription";
 
 export default function Project({ image }) {
