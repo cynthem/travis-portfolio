@@ -1,14 +1,12 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import projectList from "../util/projectList";
 
-export default function Project({ image }) {
+export default function Project({ project }) {
     return (
         <div className="project">
-            {projectList}
-            <Parallax className="project-image" bgImage={image} strength={500}></Parallax>
+            <Parallax className="project-image" bgImage={project.image} strength={500}></Parallax>
             <div className="project-description">
-                This is the project: 
+                This is the project: {project.name}
             </div>
         </div>
     );
