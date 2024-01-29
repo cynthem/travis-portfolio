@@ -11,11 +11,16 @@ import Summer2012Anim from "../assets/images/art/2012_Anim_Summer_1280.png";
 
 const projectList = [
     {
+        bkgrd: homeMain,
         name1: "Current", 
         image1: homeMain,
-        link1: "placeholder"
+        link1: "placeholder",
+        name2: "None - placeholder",
+        image2: homeMain,
+        link2: "None - placeholder"
     },
     {
+        bkgrd: Spring2018,
         name1: "Spring 2018", 
         image1: Spring2018,
         link1: "placeholder",
@@ -24,6 +29,7 @@ const projectList = [
         link2: "placeholder"
     },
     {
+        bkgrd: Summer2017,
         name1: "Summer 2017", 
         image1: Summer2017,
         link1: "placeholder",
@@ -32,6 +38,7 @@ const projectList = [
         link2: "placeholder"
     },
     {
+        bkgrd: Winter2015,
         name1: "Winter 2015", 
         image1: Winter2015,
         link1: "placeholder",
@@ -40,6 +47,7 @@ const projectList = [
         link2: "placeholder"
     },
     {
+        bkgrd: Summer2012,
         name1: "Summer 2012", 
         image1: Summer2012,
         link1: "placeholder",
