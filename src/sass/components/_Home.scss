@@ -1,14 +1,17 @@
 .home {
 
-    .project-image {
-        position: relative;
-        height: 100vh;
-    }
-    
-    .project-description {
-        height: 50vh;
-        background-color: black;
-        color: white;
+    .project {
+
+        .project-image {
+            position: relative;
+            height: 100vh;
+        }
+        
+        .project-description {
+            height: 50vh;
+            background-color: black;
+            color: white;
+        }
     }
 }
 
