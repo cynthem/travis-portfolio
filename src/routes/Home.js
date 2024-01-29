@@ -1,16 +1,16 @@
 import React from "react";
 import uniqid from "uniqid";
 import Project from "../components/Project";
-import imageList from "../util/imageList";
+import projectList from "../util/projectList";
 
 export default function Home() {
     return (
         <div className="home">
-            {imageList.map((image) => {
+            {projectList.map((project) => {
                 return (
                     <Project 
                         key={uniqid()} 
-                        image={image}
+                        project={project}
                     />
                 );
             })}
