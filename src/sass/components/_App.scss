@@ -2,12 +2,21 @@
 @import '../helpers/mixins';
 
 .App {
-    background-color: $color-gray;
 
     .header {
-        display: flex;
+        background-color: $color-gray;
         height: 50px;
-        background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-title {
+            font-family: $font-open-sans;
+        }
+
+        .header-navigation {
+            display: flex;
+        }
     }
     
     .main-content {
