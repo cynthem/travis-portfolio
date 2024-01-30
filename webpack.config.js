@@ -8,7 +8,8 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "dist")
+        path: path.resolve(__dirname, "dist"),
+        assetModuleFilename: 'assets/[hash][ext][query]'
     },
     plugins: [
         new HtmlWebpackPlugin({ template: path.join(__dirname, "public", "index.html")}),
@@ -41,7 +42,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ["*", ".js", ".jsx", ".scss"]
+        extensions: [".*", ".js", ".jsx", ".scss"]
     },
     optimization: {
         minimizer: [
