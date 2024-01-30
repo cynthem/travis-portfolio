@@ -10,18 +10,20 @@
         }
         
         .project-description {
-            height: 50vh;
+            height: 70vh;
             background-color: black;
             color: white;
             display: flex;
             justify-content: space-evenly;
+            align-items: center;
 
             .description-details {
                 display: flex;
                 flex-direction: column;
+                font-weight: 800;
                 
                 .description-image {
-                    width: 50px;
+                    width: 200px;
                 }
             }
         }
