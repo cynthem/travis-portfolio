@@ -1,18 +1,23 @@
 @import '../helpers/variables';
 @import '../helpers/mixins';
 
-.header {
-    display: flex;
-    height: 50px;
-    background-color: blue;
+.App {
+    background-color: $color-gray;
+
+    .header {
+        display: flex;
+        height: 50px;
+        background-color: blue;
+    }
+    
+    .main-content {
+        min-height: 100vh;
+    }
+    
+    .footer {
+        display: flex;
+        height: 50px;
+        background-color: red;
+    }
 }
 
-.main-content {
-    min-height: 100vh;
-}
-
-.footer {
-    display: flex;
-    height: 50px;
-    background-color: red;
-}
