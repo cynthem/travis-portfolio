@@ -11,6 +11,17 @@
             height: 50vh;
             background-color: black;
             color: white;
+            display: flex;
+            justify-content: space-evenly;
+
+            .description-details {
+                display: flex;
+                flex-direction: column;
+                
+                .description-image {
+                    width: 50px;
+                }
+            }
         }
     }
 }

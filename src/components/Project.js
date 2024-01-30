@@ -6,13 +6,13 @@ export default function Project({ project }) {
         <div className="project">
             <Parallax className="project-image" bgImage={project.bkgrd} strength={500}></Parallax>
             <div className="project-description">
-                <div className="description-left">
-                    <img src={project.image1} alt="Project image" />
-                    <p>Project name: {project.name1}</p>
+                <div className="description-details">
+                    <img className="description-image" src={project.image1} alt="Project image" />
+                    <p className="description-text">Project name: {project.name1}</p>
                 </div>
-                <div className="description-right">
-                    <img src={project.image2} alt="Project image" />
-                    <p>Project name: {project.name2}</p>
+                <div className="description-details">
+                    <img className="description-image" src={project.image2} alt="Project image" />
+                    <p className="description-text">Project name: {project.name2}</p>
                 </div>
             </div>
         </div>
