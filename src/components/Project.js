@@ -19,6 +19,7 @@ export default function Project({ project }) {
                             alt="Project image" 
                         />
                     </a>
+                    <div className="image-overlay"></div>
                     <p className="description-text">{project.name1}</p>
                 </div>
                 <div className="description-details">
@@ -34,6 +35,7 @@ export default function Project({ project }) {
                             alt="Project image" 
                         />
                     </a>
+                    <div className="image-overlay"></div>
                     <p className="description-text">{project.name2}</p>
                 </div>
             </div>
