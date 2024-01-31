@@ -8,12 +8,13 @@ export default function Project({ project }) {
             <div className="project-description">
                 <div className="description-details">
                     <a 
+                        className="description-link"
                         href={project.link1}
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
                         <img 
-                            className="description-image" 
+                            className="link-image"
                             src={project.image1} 
                             alt="Project image" 
                         />
@@ -22,12 +23,13 @@ export default function Project({ project }) {
                 </div>
                 <div className="description-details">
                     <a
+                        className="description-link"
                         href={project.link2}
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
                         <img 
-                            className="description-image" 
+                            className="link-image" 
                             src={project.image2} 
                             alt="Project image" 
                         />
