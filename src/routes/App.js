@@ -12,7 +12,7 @@ export default function App() {
                 </div>
                 <div className="header-navigation">
                     <NavLink 
-                        to="/home" 
+                        to="/" 
                         className="nav-link"
                     >
                         HOME
