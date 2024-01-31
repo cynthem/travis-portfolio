@@ -20,14 +20,15 @@
             .description-details {
                 position: relative;
                 width: 500px;
+                height: 282px;
                 font-weight: 700;
                 color: $color-light-gray;
                 text-align: center;
                 
                 .description-link {
                     .link-image {
-                        width: 100%;
-                        height: 100%;
+                        width: 500px;
+                        height: 282px;
                     }
                 }
 
