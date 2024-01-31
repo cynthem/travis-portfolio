@@ -11,16 +11,16 @@ export default function App() {
                     <h2>CINEMATIC ARTIST</h2>
                 </div>
                 <div className="header-navigation">
-                    <Link to={`home`} className="nav-link">Home</Link>
-                    <Link to={`resume`} className="nav-link">Resume</Link>
-                    <Link to={`contact`} className="nav-link">Contact</Link>
+                    <Link to={`home`} className="nav-link">HOME</Link>
+                    <Link to={`resume`} className="nav-link">RESUME</Link>
+                    <Link to={`contact`} className="nav-link">CONTACT</Link>
                 </div>
             </div>
 
             <div className="main-content"><Outlet /></div>
 
             <div className="footer">
-                <p>© 2024 Travis Phelps</p>
+                <p>© 2024 TRAVIS PHELPS</p>
                 <p>Made by 
                     <a 
                         className="footer-link"
