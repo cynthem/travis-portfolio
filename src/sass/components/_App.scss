@@ -2,15 +2,22 @@
 @import '../helpers/mixins';
 
 .App {
+    position: relative;
 
     .header {
-        background-color: $color-gray;
-        height: 140px;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        z-index: 2;
+        //background-color: $color-gray;
+        height: 300px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-left: 60px;
         padding-right: 80px;
+        padding-bottom: 120px;
+        background-image: linear-gradient(to bottom, $color-gray, 60%, rgb(34, 34, 34, 0));
 
         .header-title {
             font-family: $font-open-sans;
