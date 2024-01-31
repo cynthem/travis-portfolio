@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export default function App() {
     return (
@@ -11,9 +11,15 @@ export default function App() {
                     <h2>CINEMATIC ARTIST</h2>
                 </div>
                 <div className="header-navigation">
-                    <Link to={`home`} className="nav-link">HOME</Link>
-                    <Link to={`resume`} className="nav-link">RESUME</Link>
-                    <Link to={`contact`} className="nav-link">CONTACT</Link>
+                    <NavLink 
+                        to="/home" className="nav-link">HOME
+                    </NavLink>
+                    <NavLink 
+                        to="/resume" className="nav-link">RESUME
+                    </NavLink>
+                    <NavLink 
+                        to="/contact" className="nav-link">CONTACT
+                    </NavLink>
                 </div>
             </div>
 
