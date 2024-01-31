@@ -15,18 +15,26 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            font-size: 24px;
+            font-size: 26px;
 
             .description-details {
-                display: flex;
-                flex-direction: column;
+                position: relative;
+                width: 500px;
                 font-weight: 700;
                 color: $color-light-gray;
+                text-align: center;
                 
                 .description-link {
                     .link-image {
-                        width: 500px;
+                        width: 100%;
                     }
+                }
+
+                .description-text {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
                 }
             }
         }
