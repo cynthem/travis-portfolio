@@ -43,7 +43,7 @@ export default function Project({ project }) {
                             alt="Project image" 
                         />
                     </a>
-                    <div className="image-overlay"></div>
+                    <div className="image-overlay" style={overlayOpacity2}></div>
                     <p className="description-text">{project.name2}</p>
                 </div>
             </div>
