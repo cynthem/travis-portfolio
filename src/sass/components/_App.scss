@@ -57,9 +57,29 @@
     }
     
     .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        height: 80px;
         display: flex;
-        height: 50px;
-        background-color: red;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 60px;
+        padding-right: 80px;
+        padding-top: 28px;
+        //background-color: $color-gray;
+        font-size: 14px;
+        background-image: linear-gradient(to top, $color-gray, 60%, rgb(34, 34, 34, 0));
+        color: rgb(144, 144, 144);
+
+        p {
+
+            .footer-link {
+                text-decoration: none;
+                color: $color-light-gray;
+                margin-left: 4px;
+            }
+        }
     }
 }
 
