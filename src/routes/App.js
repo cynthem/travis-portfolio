@@ -11,24 +11,9 @@ export default function App() {
                     <h2>CINEMATIC ARTIST</h2>
                 </div>
                 <div className="header-navigation">
-                    <NavLink 
-                        to="/" 
-                        className="nav-link"
-                    >
-                        HOME
-                    </NavLink>
-                    <NavLink 
-                        to="/resume" 
-                        className="nav-link"
-                    >
-                        RESUME
-                    </NavLink>
-                    <NavLink 
-                        to="/contact" 
-                        className="nav-link"
-                    >
-                        CONTACT
-                    </NavLink>
+                    <NavLink to="/">HOME</NavLink>
+                    <NavLink to="/resume">RESUME</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
                 </div>
             </div>
 
