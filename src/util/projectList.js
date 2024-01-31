@@ -14,7 +14,7 @@ const projectList = [
         bkgrd: homeMain,
         name1: "CURRENT", 
         image1: homeMain,
-        link1: "placeholder",
+        link1: "https://www.youtube.com/watch?v=BtyBjOW8sGY",
         name2: "PLACEHOLDER",
         image2: homeMain,
         link2: "None - placeholder"
@@ -26,34 +26,34 @@ const projectList = [
         link1: "https://www.youtube.com/watch?v=O5JtTnMiJZI",
         name2: "SPRING 2018 (EXTENDED LOOK)", 
         image2: Spring2018Ext,
-        link2: "placeholder"
+        link2: "https://www.youtube.com/playlist?list=PLU2WZX3219GEsYOhTEvT35yhaSV6RSZiN"
     },
     {
         bkgrd: Summer2017,
         name1: "SUMMER 2017", 
         image1: Summer2017,
-        link1: "placeholder",
+        link1: "https://www.youtube.com/watch?v=P8-ZbRhBvEw",
         name2: "SUMMER 2017 (EXTENDED LOOK)", 
         image2: Summer2017Ext,
-        link2: "placeholder"
+        link2: "https://www.youtube.com/watch?v=w2MgtpujpFg"
     },
     {
         bkgrd: Winter2015,
         name1: "WINTER 2015", 
         image1: Winter2015,
-        link1: "placeholder",
+        link1: "https://www.youtube.com/watch?v=hrpg45GefEc",
         name2: "WINTER 2015 (EXTENDED LOOK)", 
         image2: Winter2015Ext,
-        link2: "placeholder"
+        link2: "https://www.youtube.com/watch?v=FzDd-789_AU"
     },
     {
         bkgrd: Summer2012,
         name1: "SUMMER 2012", 
         image1: Summer2012,
-        link1: "placeholder",
+        link1: "https://vimeo.com/46781496",
         name2: "SUMMER 2012 (ANIMATION)", 
         image2: Summer2012Anim,
-        link2: "placeholder"
+        link2: "https://vimeo.com/46656578"
     }
 ];
 
