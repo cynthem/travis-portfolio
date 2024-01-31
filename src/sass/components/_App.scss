@@ -43,11 +43,23 @@
             display: flex;
             gap: 40px;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 300;
+            letter-spacing: 1px;
 
             .nav-link {
                 color: $color-light-gray;
                 text-decoration: none;
+            }
+
+            .nav-link:hover {
+                color: white;
+                font-weight: 400;
+                transition: all 0.2s ease;
+            }
+
+            .nav-link.active {
+                color: $color-green;
+                font-weight: 300;
             }
         }
     }

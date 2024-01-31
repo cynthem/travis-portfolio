@@ -12,13 +12,22 @@ export default function App() {
                 </div>
                 <div className="header-navigation">
                     <NavLink 
-                        to="/home" className="nav-link">HOME
+                        to="/home" 
+                        className="nav-link"
+                    >
+                        HOME
                     </NavLink>
                     <NavLink 
-                        to="/resume" className="nav-link">RESUME
+                        to="/resume" 
+                        className="nav-link"
+                    >
+                        RESUME
                     </NavLink>
                     <NavLink 
-                        to="/contact" className="nav-link">CONTACT
+                        to="/contact" 
+                        className="nav-link"
+                    >
+                        CONTACT
                     </NavLink>
                 </div>
             </div>
