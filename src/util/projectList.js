@@ -48,11 +48,11 @@ const projectList = [
         name1: "WINTER 2015", 
         image1: Winter2015,
         link1: "https://www.youtube.com/watch?v=hrpg45GefEc",
-        opacity1: "rgba(0, 0, 0, 0.4)",
+        opacity1: "rgba(0, 0, 0, 0.5)",
         name2: "WINTER 2015 (EXTENDED LOOK)", 
         image2: Winter2015Ext,
         link2: "https://www.youtube.com/watch?v=FzDd-789_AU",
-        opacity2: "rgba(0, 0, 0, 0.2)"
+        opacity2: "rgba(0, 0, 0, 0)"
     },
     {
         bkgrd: Summer2012,
@@ -63,7 +63,7 @@ const projectList = [
         name2: "SUMMER 2012 (ANIMATION)", 
         image2: Summer2012Anim,
         link2: "https://vimeo.com/46656578",
-        opacity2: "rgba(0, 0, 0, 0.4)"
+        opacity2: "rgba(0, 0, 0, 0.6)"
     }
 ];
 
