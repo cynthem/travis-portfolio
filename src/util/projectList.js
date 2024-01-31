@@ -23,7 +23,7 @@ const projectList = [
         bkgrd: Spring2018,
         name1: "SPRING 2018", 
         image1: Spring2018,
-        link1: "placeholder",
+        link1: "https://www.youtube.com/watch?v=O5JtTnMiJZI",
         name2: "SPRING 2018 (EXTENDED LOOK)", 
         image2: Spring2018Ext,
         link2: "placeholder"

@@ -23,8 +23,10 @@
                 font-weight: 700;
                 color: $color-light-gray;
                 
-                .description-image {
-                    width: 500px;
+                a {
+                    .description-image {
+                        width: 500px;
+                    }
                 }
             }
         }
