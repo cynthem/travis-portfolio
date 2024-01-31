@@ -5,17 +5,30 @@
 
     .header {
         background-color: $color-gray;
-        height: 50px;
+        height: 140px;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         .header-title {
             font-family: $font-open-sans;
+            color: white;
+            
+            h1 {
+                font-size: 60px;
+                font-weight: 400;
+            }
+
+            h2 {}
         }
 
         .header-navigation {
             display: flex;
+
+            .nav-link {
+                color: $color-light-gray;
+                text-decoration: none;
+            }
         }
     }
     

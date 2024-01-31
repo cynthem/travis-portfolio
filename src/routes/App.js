@@ -7,8 +7,8 @@ export default function App() {
 
             <div className="header">
                 <div className="header-title">
-                    <h1>Travis Phelps</h1>
-                    <h2>Cinematic Artist</h2>
+                    <h1>TRAVIS PHELPS</h1>
+                    <h2>CINEMATIC ARTIST</h2>
                 </div>
                 <div className="header-navigation">
                     <Link to={`home`} className="nav-link">Home</Link>
