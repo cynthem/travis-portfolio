@@ -12,7 +12,7 @@ export default function Project({ project }) {
                         src={project.image1} 
                         alt="Project image" 
                     />
-                    <p className="description-text">Project name: {project.name1}</p>
+                    <p className="description-text">{project.name1}</p>
                 </div>
                 <div className="description-details">
                     <img 
@@ -20,7 +20,7 @@ export default function Project({ project }) {
                         src={project.image2} 
                         alt="Project image" 
                     />
-                    <p className="description-text">Project name: {project.name2}</p>
+                    <p className="description-text">{project.name2}</p>
                 </div>
             </div>
         </div>
