@@ -20,17 +20,18 @@
         width: 100vw;
         height: 50vh;
         display: flex;
-        align-items: center;
+        justify-content: center;
 
         .contact-grid {
             width: 50vw;
             display: flex;
             flex-direction: column;
-        }
 
-
-        .contact-row {
-            display: flex;
+            .contact-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
         }
     }
 }
