@@ -27,7 +27,7 @@ export default function Contact() {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            LINKEDIN.COM/IN/TRAVISPHELPS
+                            linkedin.com/in/travisphelps
                         </a>
                     </div>
                     <div className="contact-row">
@@ -38,7 +38,7 @@ export default function Contact() {
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            TJPDIGITAL
+                            tjpdigital
                         </a>
                     </div>
                 </div>
