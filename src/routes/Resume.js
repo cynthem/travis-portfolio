@@ -22,6 +22,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Warner Bros / Monolith Productions</h3>
                     <div className="position-details">
@@ -77,32 +78,151 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Warner Bros / Monolith Productions</h3>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Ozone Interactive</h3>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Warner Bros / Monolith Productions</h3>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Ozone Interactive</h3>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Fuelcell Games</h3>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="position-section">
                     <h3>Surreal Software / Midway Seattle / Warner Bros Interactive Seattle</h3>
-                    <div className="position-details"></div>
-                    <div className="position-details"></div>
-                    <div className="position-details"></div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="position-details">
+                        <div className="title-date">
+                            <h4 className="job-title"></h4>
+                            <p className="job-date"></p>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name"></h4>
+                            <div className="job-duties">
+                                <h5>Content</h5>
+                                <ul className="duties-list">
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="software-section">
                     <h3>SOFTWARE</h3>
                     <div className="software-grid">
@@ -119,6 +239,7 @@ export default function Resume() {
                         <p>ShotGrid</p>
                     </div>
                 </div>
+                
                 <div className="education-section">
                     <h3>EDUCATION</h3>
                     <p>Art Institute Seattle AAA Computer Animation</p>
