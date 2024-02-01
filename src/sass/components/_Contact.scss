@@ -4,21 +4,21 @@
 
     .contact-image {
         position: relative;
-        height: 75vh;
+        height: 70vh;
 
         .transition-overlay {
             position: absolute;
             top: 50vh;
             z-index: 2;
-            height: 25vh;
+            height: 20vh;
             width: 100vw;
-            background-image: linear-gradient(to top, $color-gray, 70%, rgb(34, 34, 34, 0));
+            background-image: linear-gradient(to top, $color-gray, 85%, rgb(34, 34, 34, 0));
         }
     }
 
-    .resume-content {
+    .contact-content {
         text-align: center;
         width: 100vw;
-        height: 75vh;
+        height: 80vh;
     }
 }
