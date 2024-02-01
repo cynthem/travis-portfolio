@@ -83,15 +83,39 @@ export default function Resume() {
                     <h3>Warner Bros / Monolith Productions</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Advanced Cinematic Animator (contract)</h4>
+                            <p className="job-date">October 2013 - September 2014</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name"></h4>
+                            <h4 className="game-name">"Middle Earth: Shadow of Mordor"</h4>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
-                                    <li></li>
+                                    <li>Motionbuilder previs & blockout  through to final camera polish.</li>
+                                    <li>Created key scenes showcased in demos and promotional content.</li>
+                                    <li>Our team completed 86 minutes of highly polished cinematics under an aggressive 13 month schedule.</li>
+                                    <li>Additional polish passes on content for impact and punch.</li>
+                                    <li>Compositing and post-process work including:  Transitional effects,  sky replacements,  landscape vista enhancements, and rendering-bug removal.</li>
+                                    <li>Edited multiple marketing trailers for web and television.</li>
+                                </ul>
+                            </div>
+                            <div className="job-duties">
+                                <h5>Tech Art</h5>
+                                <ul className="duties-list">
+                                    <li>Outlined pipeline and project structure to establish a team-wide workflow.</li>
+                                    <li>Motionbuilder Camera Rig development based on usability feedback.</li>
+                                    <li>Proactively developed and maintained a suite of Motionbuilder Python tools that were deployed team-wide.  Continuously gathered feedback to ensure usability.</li>
+                                    <li>Some tools include:
+                                        <ul className="tools-list">
+                                            <li>Automation of a complicated scene export process.</li>
+                                            <li>Custom rotation-only based FBX character animation clip export.</li>
+                                            <li>Performance capture camera data distribution to the discrete controls of our Camera Rig.</li>
+                                            <li>Facial data alignment with body data based on timecode.</li>
+                                            <li>Audio file trimming based on mocap time ranges.</li>
+                                            <li>And many more!</li>
+                                        </ul>
+                                    </li>
+                                    <li>Created Python/Batch tools to maintain our engine-based rendering pipeline.  Automated video conversion, organization, and Shotgun uploading.</li>
                                 </ul>
                             </div>
                         </div>
@@ -239,7 +263,7 @@ export default function Resume() {
                         <p>ShotGrid</p>
                     </div>
                 </div>
-                
+
                 <div className="education-section">
                     <h3>EDUCATION</h3>
                     <p>Art Institute Seattle AAA Computer Animation</p>
