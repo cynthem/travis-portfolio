@@ -6,10 +6,12 @@ export default function Resume() {
     return (
         <div className="resume">
             <Parallax className="resume-image" bgImage={resumeBackground} strength={400}>
-                <div className="transition-overlay">test</div>
+                <div className="transition-overlay"></div>
             </Parallax>
             <div className="resume-content">
-                testing 123
+                <div className="position-section"></div>
+                <div className="software-section"></div>
+                <div className="education-section"></div>
             </div>
         </div>
     );
