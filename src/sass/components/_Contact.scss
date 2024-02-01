@@ -1,6 +1,6 @@
 .contact {
     background-color: $color-gray;
-    height: 120vh;
+    height: 110vh;
 
     .contact-image {
         position: relative;
@@ -18,19 +18,29 @@
 
     .contact-content {
         width: 100vw;
-        height: 50vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
+        padding-top: 40px;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        padding-left: 30px;
 
         .contact-grid {
-            width: 50vw;
+            width: 45vw;
             display: flex;
             flex-direction: column;
+            gap: 28px;
 
             .contact-row {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                a {
+                    color: $color-green;
+                    text-decoration: none;
+                }
             }
         }
     }
