@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
+import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ project }) {
