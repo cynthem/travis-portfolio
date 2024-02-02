@@ -2,7 +2,7 @@
 
 .resume {
     background-color: $color-gray;
-    height: 200vh;
+    min-height: 200vh;
 
     .resume-image {
         position: relative;
@@ -19,44 +19,38 @@
     }
 
     .resume-content {
-        height: 135vh;
-        padding-left: 15vw;
-        padding-right: 12vw;
+        min-height: 135vh;
+        padding-left: 18vw;
+        padding-right: 15vw;
         display: flex;
         flex-direction: column;
         gap: 80px;
         color: white;
+        font-weight: 300;
+        font-size: 14px;
+        padding-bottom: 100px;
+
+        .position-section > h3,
+        .software-section > h3,
+        .education-section > h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
 
         .position-section {
-            display: none;
+
+            .position-details {
+                display: none;
+            }
         }
 
         .software-section {
-            h3 {
-                font-size: 24px;
-                margin-bottom: 15px;
-            }
-
             .software-grid {
                 display: grid;
                 grid-template-rows: 1fr 1fr;
                 grid-template-columns: repeat(6, 1fr);
                 row-gap: 20px;
                 text-align: center;
-                font-weight: 300;
-                font-size: 14px;
-            }
-        }
-
-        .education-section {
-            h3 {
-                font-size: 24px;
-                margin-bottom: 15px;
-            }
-
-            p {
-                font-weight: 300;
-                font-size: 14px;
             }
         }
     }
