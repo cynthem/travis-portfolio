@@ -11,7 +11,7 @@ export default function Project({ project }) {
     }
 
     return (
-        <div className="project">
+        <div className="project-container">
             <Parallax className="project-image" bgImage={project.bkgrd} strength={400}></Parallax>
             <div className="project-description">
                 <div className="description-details">
@@ -28,7 +28,13 @@ export default function Project({ project }) {
                         />
                     </a>
                     <div className="image-overlay" style={overlayOpacity1}></div>
-                    <p className="description-text">{project.name1}</p>
+                    <a className="description-text"
+                        href={project.link1}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        {project.name1}
+                    </a>
                 </div>
                 <div className="description-details">
                     <a

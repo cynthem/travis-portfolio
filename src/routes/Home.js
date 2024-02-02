@@ -1,6 +1,6 @@
 import React from "react";
 import uniqid from "uniqid";
-import Project from "../components/Project";
+import Project from "../components/ProjectContainer";
 import projectList from "../util/projectList";
 
 export default function Home() {
