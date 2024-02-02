@@ -1,31 +1,31 @@
 import React from "react";
 
-export default function Projects({ values }) {
+export default function Projects({ parts }) {
     const overlayOpacity = {
-        backgroundColor: values.opacity || 'rgba(0, 0, 0, 0.3)'
+        backgroundColor: parts.opacity || 'rgba(0, 0, 0, 0.3)'
     }
 
     return (
         <div className="project">
             <a
                 className="description-link"
-                href={values.link}
+                href={parts.link}
                 target="_blank" 
                 rel="noopener noreferrer"
             >
                 <img 
                     className="link-image"
-                    src={values.image} 
+                    src={parts.image} 
                     alt="Project image" 
                 />
             </a>
             <div className="image-overlay" style={overlayOpacity}></div>
             <a className="description-text"
-                href={values.link}
+                href={parts.link}
                 target="_blank" 
                 rel="noopener noreferrer"
             >
-                {values.name}
+                {parts.name}
             </a>
         </div>
     );
