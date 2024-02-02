@@ -61,16 +61,20 @@
                 .game-details {
                     padding-top: 5px;
 
+                    .game-name,
+                    .no-link {
+                        padding-left: 10px;
+                        font-size: 18px;
+                    }
+
                     .game-name {
                         color: $color-green;
                         text-decoration: none;
                         font-weight: 700;
                     }
 
-                    .game-name,
-                    .no-link {
-                        padding-left: 10px;
-                        font-size: 18px;
+                    .game-name:hover {
+                        font-weight: 900;
                     }
 
                     .awards {
