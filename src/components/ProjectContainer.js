@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
+import projectList from "../util/projectList";
 
 export default function ProjectContainer({ projects }) {
     return (
@@ -9,11 +10,11 @@ export default function ProjectContainer({ projects }) {
             <Parallax className="project-image" bgImage={projects.bkgrd} strength={400}></Parallax>
 
             <div className="projects-display">
-                {projects.map((preview) => {
+                {projectList.map(({ project }) => {
                     return (
                         <Projects 
                             key={uniqid()}
-                            preview={preview}
+                            project={project}
                         />
                     );
                 })}
