@@ -10,11 +10,11 @@ export default function ProjectContainer({ projects }) {
             <Parallax className="project-image" bgImage={projects.bkgrd} strength={400}></Parallax>
 
             <div className="projects-display">
-                {projectList.map(({ project }) => {
+                {Object.values(projects.project).map((values) => {
                     return (
                         <Projects 
                             key={uniqid()}
-                            project={project}
+                            values={values}
                         />
                     );
                 })}
