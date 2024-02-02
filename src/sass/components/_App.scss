@@ -9,7 +9,6 @@
         top: 0;
         width: 100vw;
         z-index: 2;
-        //background-color: $color-gray;
         height: 300px;
         display: flex;
         justify-content: space-between;
@@ -80,11 +79,16 @@
         color: rgb(144, 144, 144);
 
         p {
-
             .footer-link {
                 text-decoration: none;
                 color: $color-light-gray;
                 margin-left: 4px;
+            }
+
+            .footer-link:hover {
+                color: white;
+                font-weight: 400;
+                transition: all 0.2s ease;
             }
         }
     }
