@@ -48,6 +48,7 @@
 
                 .title-date {
                     padding-left: 10px;
+                    padding-bottom: 12px;
                     display: flex;
                     justify-content: space-between;
                     font-size: 18px;
@@ -62,7 +63,18 @@
                     display: none;
                 }
 
-                .surreal-list {}
+                .surreal-list {
+                    list-style: none;
+                    padding-bottom: 20px;
+
+                    li {
+                        padding-bottom: 5px;
+                    }
+
+                    .italic {
+                        font-style: italic;
+                    }
+                }
             }
         }
 
