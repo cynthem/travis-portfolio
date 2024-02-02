@@ -10,10 +10,12 @@ export default function ProjectContainer({ projects }) {
 
             <div className="projects-display">
                 {projects.map((preview) => {
-                    <Projects 
-                        key={uniqid()}
-                        preview={preview}
-                    />
+                    return (
+                        <Projects 
+                            key={uniqid()}
+                            preview={preview}
+                        />
+                    );
                 })}
             </div>
         </div>
