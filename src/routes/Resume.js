@@ -275,48 +275,36 @@ export default function Resume() {
                     <h3>Surreal Software / Midway Seattle / Warner Bros Interactive Seattle</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Senior Cinematic Animator</h4>
+                            <p className="job-date">August 2005 - April 2010</p>
                         </div>
-                        <div className="game-details">
-                            <h4 className="game-name"></h4>
-                            <div className="job-duties">
-                                <h5>Content</h5>
-                                <ul className="duties-list">
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <ul className="surreal-list">
+                            <li>"This is Vegas"</li>
+                            <li>"Fear 3"</li>
+                            <li>"War in the North"</li>
+                            <li>"Wheelman"</li>
+                            <li>"John Woo Presents Stranglehold</li>
+                            <li className="italic">Multiple unannounced prototype projects</li>
+                        </ul>
                     </div>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Lead Cinematic Animator</h4>
+                            <p className="job-date">January 2004 - August 2005</p>
                         </div>
-                        <div className="game-details">
-                            <h4 className="game-name"></h4>
-                            <div className="job-duties">
-                                <h5>Content</h5>
-                                <ul className="duties-list">
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <ul className="surreal-list">
+                            <li>"The Suffering: Ties That Bind"</li>
+                        </ul>
                     </div>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Cinematic Animator</h4>
+                            <p className="job-date">April 2003 - January 2004</p>
                         </div>
-                        <div className="game-details">
-                            <h4 className="game-name"></h4>
-                            <div className="job-duties">
-                                <h5>Content</h5>
-                                <ul className="duties-list">
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <ul className="surreal-list">
+                            <li>"The Suffering"</li>
+                            <li>“Lord of the Rings: The Treason of Isengard”</li>
+                        </ul>
                     </div>
                 </div>
 
