@@ -117,7 +117,7 @@ export default function Resume() {
                         <div className="game-details">
                             <a 
                                 className="game-name"
-                                href=""
+                                href="https://www.shadowofwar.com/shadow-of-mordor/"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
@@ -192,7 +192,7 @@ export default function Resume() {
                         <div className="game-details">
                             <a 
                                 className="game-name"
-                                href=""
+                                href="https://www.shadowofwar.com/shadow-of-mordor/"
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
