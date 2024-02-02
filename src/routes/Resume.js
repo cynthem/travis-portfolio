@@ -126,15 +126,14 @@ export default function Resume() {
                     <h3>Ozone Interactive</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Senior Animator (contract)</h4>
+                            <p className="job-date">September 2013 - October 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name"></h4>
-                            <div className="job-duties">
-                                <h5>Content</h5>
+                            <h4 className="game-name">"Never Alone" <span>- Prototype</span></h4>
+                            <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
-                                    <li></li>
+                                    <li>Created Maya animation sets for the main character to complete a proof-of-concept level for what would eventually become the game “Never Alone”. Implemented in Unity.</li>
                                 </ul>
                             </div>
                         </div>
@@ -145,15 +144,23 @@ export default function Resume() {
                     <h3>Warner Bros / Monolith Productions</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Senior Cinematic Animator (contract)</h4>
+                            <p className="job-date">January 2013 - September 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name"></h4>
+                            <h4 className="game-name">"Middle Earth: Shadow of Mordor"</h4>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
-                                    <li></li>
+                                    <li>Contributed in all stages of production.  2d animatic and previs through to final camera-lock.  Block-out animation,  mocap implementation and modification,  camera animation and editing.</li>
+                                    <li>Helped re-define cinematic visual style-guide.</li>
+                                </ul>
+                            </div>
+                            <div className="job-duties">
+                                <h5>Tech Art</h5>
+                                <ul className="duties-list">
+                                    <li>Learned MotionBuilder and developed a workflow for building a scene. Developed MotionBuilder Camera Rig that accommodates hand-keyed animation through versatile controls, drives in-game Depth of Field settings with visual feedback, and easily exports to the engine.</li>
+                                    <li>Developed MotionBuilder Python scripts to assist facial animation, and exporting camera switcher edits to engine.</li>
                                 </ul>
                             </div>
                         </div>
@@ -164,15 +171,22 @@ export default function Resume() {
                     <h3>Ozone Interactive</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Senior Animator (contract)</h4>
+                            <p className="job-date">April 2012 - January 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name"></h4>
-                            <div className="job-duties">
-                                <h5>Content</h5>
+                            <h4 className="game-name">"Amazon Project"</h4>
+                            <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
-                                    <li></li>
+                                    <li>Created Maya based, UI and interaction pre-visualization animation for multiple phone OS concepts.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name">"Roku Project"</h4>
+                            <div className="job-duties no-duty-title">
+                                <ul className="duties-list">
+                                    <li>Created AfterEffects based, UI pre-visualization animation for new products and software.</li>
                                 </ul>
                             </div>
                         </div>
@@ -183,15 +197,74 @@ export default function Resume() {
                     <h3>Fuelcell Games</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title"></h4>
-                            <p className="job-date"></p>
+                            <h4 className="job-title">Studio Animation Director | Co-owner</h4>
+                            <p className="job-date">April 2010 - April 2012 | Present</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name"></h4>
+                            <h4 className="game-name insanely-twisted">"Insanely Twisted Shadow Planet"</h4>
+                            <div className="awards">
+                                <h5 className="winner">WINNER</h5>
+                                <div className="award-row">
+                                    <p className="award-title">"Best Debut Game"</p>
+                                    <p className="award-organization">British Academy of Film and Television Arts (BAFTA)</p>
+                                    <p className="award-year">2011</p>
+                                </div>
+                                <div className="award-row">
+                                    <p className="award-title">"Best Animated Video Game"</p>
+                                    <p className="award-organization">39th Annual Annie Awards (ASIFA)</p>
+                                    <p className="award-year">2011</p>
+                                </div>
+                            </div>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
-                                    <li></li>
+                                    <li>Rigged and animated most characters and dynamic environment models.</li>
+                                    <li>Created models.</li>
+                                    <li>Level concept, layout and design.</li>
+                                    <li>Assisted with cinematics.</li>
+                                </ul>
+                            </div>
+                            <div className="job-duties">
+                                <h5>Tech Art</h5>
+                                <ul className="duties-list">
+                                    <li>Worked with our engineering team to create the animation pipeline for our proprietary engine.</li>
+                                    <li>Created numerous Python scripts to assist rigging and animation.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name">"Insanely Twisted Shadow Planet: Shadow Hunters" (DLC)</h4>
+                            <div className="job-duties no-duty-title">
+                                <ul className="duties-list">
+                                    <li>Rigged and animated characters and dynamic environment models.</li>
+                                    <li>Created an animated lobby environment.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name">"Conquer" (prototype)</h4>
+                            <div className="job-duties no-duty-title">
+                                <ul className="duties-list">
+                                    <li>Rigged and animated all characters.</li>
+                                    <li>Built play arena from concepts.</li>
+                                    <li>Logo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name">"Abstrakt" (prototype)</h4>
+                            <div className="job-duties no-duty-title">
+                                <ul className="duties-list">
+                                    <li>Modeled, rigged, and animated player avatar.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="game-details">
+                            <h4 className="game-name">"Ship Studio" (prototype)</h4>
+                            <div className="job-duties no-duty-title">
+                                <ul className="duties-list">
+                                    <li>Created models.</li>
+                                    <li>Concept Designed UI.</li>
                                 </ul>
                             </div>
                         </div>
