@@ -54,17 +54,17 @@ const projectList = [
         link2: "https://www.youtube.com/watch?v=FzDd-789_AU",
         opacity2: "rgba(0, 0, 0, 0)"
     },
-    {
+    /*{
         bkgrd: Summer2012,
-        name1: "SUMMER 2012", 
+        name1: "SUMMER 2012", //might need text: "password protected"
         image1: Summer2012,
-        link1: "https://vimeo.com/46781496",
+        link1: "https://vimeo.com/46781496", //link to private vid
         opacity1: "rgba(0, 0, 0, 0.3)",
         name2: "SUMMER 2012 (ANIMATION)", 
         image2: Summer2012Anim,
         link2: "https://vimeo.com/46656578",
         opacity2: "rgba(0, 0, 0, 0.6)"
-    }
+    }*/
 ];
 
 export default projectList;
