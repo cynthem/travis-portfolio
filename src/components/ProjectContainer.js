@@ -3,56 +3,18 @@ import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ project }) {
+export default function ProjectContainer({ projects }) {
     return (
         <div className="project-container">
-            <Parallax className="project-image" bgImage={project.bkgrd} strength={400}></Parallax>
+            <Parallax className="project-image" bgImage={projects.bkgrd} strength={400}></Parallax>
 
-            <div className="project-display">
-
-
-            </div>
-
-
-            <div className="project-description">
-                <div className="description-details">
-                    <a 
-                        className="description-link"
-                        href={project.link1}
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
-                        <img 
-                            className="link-image"
-                            src={project.image1} 
-                            alt="Project image" 
-                        />
-                    </a>
-                    <div className="image-overlay" style={overlayOpacity1}></div>
-                    <a className="description-text"
-                        href={project.link1}
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
-                        {project.name1}
-                    </a>
-                </div>
-                <div className="description-details">
-                    <a
-                        className="description-link"
-                        href={project.link2}
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
-                        <img 
-                            className="link-image" 
-                            src={project.image2} 
-                            alt="Project image" 
-                        />
-                    </a>
-                    <div className="image-overlay" style={overlayOpacity2}></div>
-                    <p className="description-text">{project.name2}</p>
-                </div>
+            <div className="projects-display">
+                {projects.project.map((preview) => {
+                    <Projects 
+                        key={uniqid()}
+                        preview={preview}
+                    />
+                })}
             </div>
         </div>
     );
