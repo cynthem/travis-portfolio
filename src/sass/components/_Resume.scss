@@ -59,14 +59,18 @@
                 }
 
                 .game-details {
+                    padding-top: 5px;
 
                     .game-name {
                         color: $color-green;
                         text-decoration: none;
+                        font-weight: 400;
                     }
 
+                    .game-name,
                     .no-link {
-                        
+                        padding-left: 10px;
+                        font-size: 18px;
                     }
 
                     .job-duties {
