@@ -262,12 +262,12 @@ export default function Resume() {
                                 <h5 className="winner">WINNER</h5>
                                 <div className="award-row">
                                     <p className="award-title">"Best Debut Game"</p>
-                                    <p className="award-organization">British Academy of Film and Television Arts (BAFTA)</p>
+                                    <p className="award-organization">British Academy of Film and Television Arts (<span>BAFTA</span>)</p>
                                     <p className="award-year">2011</p>
                                 </div>
                                 <div className="award-row">
                                     <p className="award-title">"Best Animated Video Game"</p>
-                                    <p className="award-organization">39th Annual Annie Awards (ASIFA)</p>
+                                    <p className="award-organization">39th Annual Annie Awards (<span>ASIFA</span>)</p>
                                     <p className="award-year">2011</p>
                                 </div>
                             </div>
