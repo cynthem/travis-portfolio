@@ -4,20 +4,12 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ project }) {
-    const overlayOpacity1 = {
-        backgroundColor: project.opacity1 || 'rgba(0, 0, 0, 0.3)'
-    }
-
-    const overlayOpacity2 = {
-        backgroundColor: project.opacity2 || 'rgba(0, 0, 0, 0.3)'
-    }
-
     return (
         <div className="project-container">
             <Parallax className="project-image" bgImage={project.bkgrd} strength={400}></Parallax>
 
             <div className="project-display">
-                
+
 
             </div>
 

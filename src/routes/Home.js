@@ -6,11 +6,11 @@ import projectList from "../util/projectList";
 export default function Home() {
     return (
         <div className="home">
-            {projectList.map((project) => {
+            {projectList.map((projects) => {
                 return (
                     <ProjectContainer
                         key={uniqid()} 
-                        project={project}
+                        project={projects}
                     />
                 );
             })}
