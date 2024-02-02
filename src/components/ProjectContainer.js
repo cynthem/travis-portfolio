@@ -17,7 +17,7 @@ export default function ProjectContainer({ project }) {
             <Parallax className="project-image" bgImage={project.bkgrd} strength={400}></Parallax>
 
             <div className="project-display">
-
+                
 
             </div>
 
