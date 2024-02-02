@@ -9,7 +9,7 @@ export default function ProjectContainer({ projects }) {
             <Parallax className="project-image" bgImage={projects.bkgrd} strength={400}></Parallax>
 
             <div className="projects-display">
-                {projects.project.map((preview) => {
+                {projects.map((preview) => {
                     <Projects 
                         key={uniqid()}
                         preview={preview}
