@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import resumeBackground from "../assets/images/art/Resume_Background_1280.png";
+import resumeBackground from "../assets/images/Resume_Background_1280.png";
 
 export default function Resume() {
     return (

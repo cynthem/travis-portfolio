@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import contactBackground from "../assets/images/art/Contact_Background.png";
+import contactBackground from "../assets/images/Contact_Background.png";
 
 export default function Contact() {
     return (
