@@ -1,12 +1,12 @@
-import homeMain from "../assets/images/art/Home_Background.png";
-import Spring2018 from "../assets/images/art/2018_Spring_1280.png";
-import Spring2018Ext from "../assets/images/art/2018_Ext_Spring_1280.png";
-import Summer2017 from "../assets/images/art/2017_Summer_1280.png";
-import Summer2017Ext from "../assets/images/art/2017_Ext_Summer_1280.png";
-import Winter2015 from "../assets/images/art/2015_Winter_1280.png";
-import Winter2015Ext from "../assets/images/art/2015_Ext_Winter_1280.png";
-import Summer2012 from "../assets/images/art/2012_Summer_1280.png";
-import Summer2012Anim from "../assets/images/art/2012_Anim_Summer_1280.png";
+import homeMain from "../assets/images/Home_Background.png";
+import Spring2018 from "../assets/images/2018_Spring_1280.png";
+import Spring2018Ext from "../assets/images/2018_Ext_Spring_1280.png";
+import Summer2017 from "../assets/images/2017_Summer_1280.png";
+import Summer2017Ext from "../assets/images/2017_Ext_Summer_1280.png";
+import Winter2015 from "../assets/images/2015_Winter_1280.png";
+import Winter2015Ext from "../assets/images/2015_Ext_Winter_1280.png";
+import Summer2012 from "../assets/images/2012_Summer_1280.png";
+import Summer2012Anim from "../assets/images/2012_Anim_Summer_1280.png";
 
 
 const projectList = [
