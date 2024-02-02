@@ -1,9 +1,7 @@
 @import "../helpers/variables";
 
 .home {
-
     .project-container {
-
         .project-image {
             position: relative;
             height: 100vh;
@@ -18,10 +16,6 @@
             font-size: 26px;
 
             .project {
-                
-            }
-
-            .description-details {
                 position: relative;
                 width: 500px;
                 height: 282px;
@@ -55,4 +49,3 @@
         }
     }
 }
-
