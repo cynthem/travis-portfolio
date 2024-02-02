@@ -111,11 +111,30 @@
                     }
 
                     .job-duties {
-                        display: none;
+                        padding-left: 20px;
+                        padding-top: 10px;
+
+                        h5 {
+                            font-size: 14px;
+                            padding-bottom: 3px;
+                        }
+
+                        .duties-list {
+                            padding-left: 18px;
+                            padding-bottom: 10px;
+
+                            li {
+                                padding-bottom: 4px;
+
+                                .tools-list {
+                                    padding-left: 15px;
+                                }
+                            }
+                        }
                     }
 
                     .no-duty-title {
-                        display: none;
+                        
                     }
                 }
 

@@ -140,7 +140,7 @@ export default function Resume() {
                                     <li>Outlined pipeline and project structure to establish a team-wide workflow.</li>
                                     <li>Motionbuilder Camera Rig development based on usability feedback.</li>
                                     <li>Proactively developed and maintained a suite of Motionbuilder Python tools that were deployed team-wide.  Continuously gathered feedback to ensure usability.</li>
-                                    <li>Some tools include:
+                                    <li className="tools-title">Some tools include:
                                         <ul className="tools-list">
                                             <li>Automation of a complicated scene export process.</li>
                                             <li>Custom rotation-only based FBX character animation clip export.</li>
