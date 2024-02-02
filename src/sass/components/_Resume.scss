@@ -19,8 +19,45 @@
     }
 
     .resume-content {
-        text-align: center;
-        width: 100vw;
         height: 135vh;
+        padding-left: 15vw;
+        padding-right: 12vw;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        color: white;
+
+        .position-section {
+            display: none;
+        }
+
+        .software-section {
+            h3 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+
+            .software-grid {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: repeat(6, 1fr);
+                row-gap: 20px;
+                text-align: center;
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+
+        .education-section {
+            h3 {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
     }
 }
