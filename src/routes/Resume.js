@@ -18,7 +18,14 @@ export default function Resume() {
                             <p className="job-date">October 2019 - Current</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Hogwarts Legacy"</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.youtube.com/watch?v=BsC-Rl9GYy0&ab_channel=HogwartsLegacy"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Hogwarts Legacy"
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -31,7 +38,14 @@ export default function Resume() {
                             <p className="job-date">February 2015 - October 2019</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Middle Earth: Shadow of War"</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.shadowofwar.com/purchase/"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Middle Earth: Shadow of War"
+                            </a>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
@@ -56,7 +70,14 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">“Middle Earth: Shadow of War - The Blade of Galadriel" (DLC)</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.youtube.com/watch?v=0vksOu7KSEw&ab_channel=ShadowofWar"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                “Middle Earth: Shadow of War - The Blade of Galadriel" (DLC)
+                            </a>
                                 <div className="job-duties">
                                     <h5>Content</h5>
                                     <ul className="duties-list">
@@ -66,7 +87,14 @@ export default function Resume() {
                                 </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">“Middle Earth: Shadow of War - Desolation of Mordor" (DLC)</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.youtube.com/watch?v=VaExiwhFnwQ&ab_channel=ShadowofWar"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                “Middle Earth: Shadow of War - Desolation of Mordor" (DLC)
+                            </a>
                                 <div className="job-duties">
                                     <h5>Content</h5>
                                     <ul className="duties-list">
@@ -87,7 +115,14 @@ export default function Resume() {
                             <p className="job-date">October 2013 - September 2014</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Middle Earth: Shadow of Mordor"</h4>
+                            <a 
+                                className="game-name"
+                                href=""
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Middle Earth: Shadow of Mordor"
+                            </a>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
@@ -130,7 +165,14 @@ export default function Resume() {
                             <p className="job-date">September 2013 - October 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Never Alone" <span>- Prototype</span></h4>
+                            <a 
+                                className="game-name"
+                                href="http://neveralonegame.com/"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Never Alone" (prototype)
+                            </a>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created Maya animation sets for the main character to complete a proof-of-concept level for what would eventually become the game “Never Alone”. Implemented in Unity.</li>
@@ -148,7 +190,14 @@ export default function Resume() {
                             <p className="job-date">January 2013 - September 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Middle Earth: Shadow of Mordor"</h4>
+                            <a 
+                                className="game-name"
+                                href=""
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Middle Earth: Shadow of Mordor"
+                            </a>
                             <div className="job-duties">
                                 <h5>Content</h5>
                                 <ul className="duties-list">
@@ -175,7 +224,7 @@ export default function Resume() {
                             <p className="job-date">April 2012 - January 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Amazon Project"</h4>
+                            <h4 className="game-name no-link">"Amazon Project"</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created Maya based, UI and interaction pre-visualization animation for multiple phone OS concepts.</li>
@@ -183,7 +232,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Roku Project"</h4>
+                            <h4 className="game-name no-link">"Roku Project"</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created AfterEffects based, UI pre-visualization animation for new products and software.</li>
@@ -201,7 +250,14 @@ export default function Resume() {
                             <p className="job-date">April 2010 - April 2012 | Present</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name insanely-twisted">"Insanely Twisted Shadow Planet"</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.youtube.com/watch?v=-9r6J0b-2BI&ab_channel=MichelGagne"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Insanely Twisted Shadow Planet"
+                            </a>
                             <div className="awards">
                                 <h5 className="winner">WINNER</h5>
                                 <div className="award-row">
@@ -233,7 +289,14 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Insanely Twisted Shadow Planet: Shadow Hunters" (DLC)</h4>
+                            <a 
+                                className="game-name"
+                                href="https://www.youtube.com/watch?v=PbHencDiTFs&ab_channel=MichelGagne"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                "Insanely Twisted Shadow Planet: Shadow Hunters" (DLC)
+                            </a>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Rigged and animated characters and dynamic environment models.</li>
@@ -242,7 +305,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Conquer" (prototype)</h4>
+                            <h4 className="game-name no-link">"Conquer" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Rigged and animated all characters.</li>
@@ -252,7 +315,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Abstrakt" (prototype)</h4>
+                            <h4 className="game-name no-link">"Abstrakt" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Modeled, rigged, and animated player avatar.</li>
@@ -260,7 +323,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name">"Ship Studio" (prototype)</h4>
+                            <h4 className="game-name no-link">"Ship Studio" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created models.</li>
