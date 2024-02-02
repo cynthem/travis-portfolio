@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 
-export default function Project({ project }) {
+export default function ProjectContainer({ project }) {
     const overlayOpacity1 = {
         backgroundColor: project.opacity1 || 'rgba(0, 0, 0, 0.3)'
     }
@@ -13,6 +13,13 @@ export default function Project({ project }) {
     return (
         <div className="project-container">
             <Parallax className="project-image" bgImage={project.bkgrd} strength={400}></Parallax>
+
+            <div className="project-display">
+
+
+            </div>
+
+
             <div className="project-description">
                 <div className="description-details">
                     <a 

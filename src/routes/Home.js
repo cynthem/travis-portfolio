@@ -1,6 +1,6 @@
 import React from "react";
 import uniqid from "uniqid";
-import Project from "../components/ProjectContainer";
+import ProjectContainer from "../components/ProjectContainer";
 import projectList from "../util/projectList";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
         <div className="home">
             {projectList.map((project) => {
                 return (
-                    <Project 
+                    <ProjectContainer
                         key={uniqid()} 
                         project={project}
                     />
