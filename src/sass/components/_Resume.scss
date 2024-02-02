@@ -73,6 +73,38 @@
                         font-size: 18px;
                     }
 
+                    .awards {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        color: $color-yellow;
+                        padding-top: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 24px;
+
+                        .winner {
+                            font-size: 14px;
+                        }
+
+                        .award-row {
+                            display: grid;
+                            grid-template-columns: 2fr 3fr 1fr;
+                            width: 100%;
+
+                            .award-title {
+                                font-weight: 700;
+                            }
+                            
+                            .award-organization {
+                                text-align: center;
+                            }
+
+                            .award-year {
+                                text-align: end;
+                            }
+                        }
+                    }
+
                     .job-duties {
                         display: none;
                     }
