@@ -76,8 +76,9 @@
                     .awards {
                         padding-left: 30px;
                         padding-right: 30px;
-                        color: $color-yellow;
                         padding-top: 10px;
+                        padding-bottom: 15px;
+                        color: $color-yellow;
                         display: flex;
                         flex-direction: column;
                         gap: 24px;
@@ -97,6 +98,10 @@
                             
                             .award-organization {
                                 text-align: center;
+
+                                span {
+                                    font-weight: 700;
+                                }
                             }
 
                             .award-year {
