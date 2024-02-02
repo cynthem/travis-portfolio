@@ -45,7 +45,6 @@
         .position-section {
 
             .position-details {
-
                 .title-date {
                     padding-left: 10px;
                     padding-bottom: 12px;
@@ -60,7 +59,23 @@
                 }
 
                 .game-details {
-                    display: none;
+
+                    .game-name {
+                        color: $color-green;
+                        text-decoration: none;
+                    }
+
+                    .no-link {
+                        
+                    }
+
+                    .job-duties {
+                        display: none;
+                    }
+
+                    .no-duty-title {
+                        display: none;
+                    }
                 }
 
                 .surreal-list {

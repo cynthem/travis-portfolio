@@ -224,7 +224,7 @@ export default function Resume() {
                             <p className="job-date">April 2012 - January 2013</p>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name no-link">"Amazon Project"</h4>
+                            <h4 className="no-link">"Amazon Project"</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created Maya based, UI and interaction pre-visualization animation for multiple phone OS concepts.</li>
@@ -232,7 +232,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name no-link">"Roku Project"</h4>
+                            <h4 className="no-link">"Roku Project"</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created AfterEffects based, UI pre-visualization animation for new products and software.</li>
@@ -305,7 +305,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name no-link">"Conquer" (prototype)</h4>
+                            <h4 className="no-link">"Conquer" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Rigged and animated all characters.</li>
@@ -315,7 +315,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name no-link">"Abstrakt" (prototype)</h4>
+                            <h4 className="no-link">"Abstrakt" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Modeled, rigged, and animated player avatar.</li>
@@ -323,7 +323,7 @@ export default function Resume() {
                             </div>
                         </div>
                         <div className="game-details">
-                            <h4 className="game-name no-link">"Ship Studio" (prototype)</h4>
+                            <h4 className="no-link">"Ship Studio" (prototype)</h4>
                             <div className="job-duties no-duty-title">
                                 <ul className="duties-list">
                                     <li>Created models.</li>
