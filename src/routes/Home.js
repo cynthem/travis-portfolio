@@ -10,7 +10,7 @@ export default function Home() {
                 return (
                     <ProjectContainer
                         key={uniqid()} 
-                        projects={projects}
+                        previews={projects.previews}
                     />
                 );
             })}
