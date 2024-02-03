@@ -118,3 +118,64 @@
         }
     }
 }
+
+
+/* RESPONSIVE STYLES */
+
+@media screen and (max-width: 900px) {
+    .App {
+        .header {
+            .header-navigation {
+                .menu-icon {
+                    display: block;
+                    font-size: 2rem;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    transform: translate(-200%, 200%);
+                    z-index: 4;
+                }
+
+                .nav-menu {
+                    display: flex;
+                    justify-content: center;
+                    height: 300px;
+                    flex-direction: column;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    opacity: 1;
+                    transition: all 0.5s ease;
+
+                    .nav-item {
+                        .nav-links {
+                            text-align: center;
+                            padding: 1rem;
+                            width: 100%;
+                            display: table;
+                        }
+
+                        .nav-links:hover {
+                            transform: scale(1.2);
+                            transition: all 0.2s ease;
+                        }
+                    }
+
+                    .nav-item:hover {
+                        border: none;
+                    }
+                }
+
+                .nav-menu.active {
+                    background-color: $color-gray;
+                    left: 0;
+                    opacity: 1;
+                    transition: all 0.6s ease;
+                    z-index: 2;
+                }
+            }
+        }
+    }
+}
