@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .contact {
         .contact-content {
             padding-left: 0px;
@@ -84,6 +84,7 @@
         .contact-content {
             .contact-grid {
                 width: 80vw;
+
                 .contact-row {
                     grid-template-columns: 1fr 2fr;
                 }
