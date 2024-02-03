@@ -93,3 +93,13 @@
     }
 }
 
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 800px) {
+    .App {
+        .header {
+            .header-navigation {}
+        }
+    }
+}
