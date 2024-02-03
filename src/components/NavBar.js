@@ -25,7 +25,7 @@ export default function NavBar() {
                             }
                             onClick={closeMobileMenu}
                         >
-                            Home
+                            HOME
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -36,7 +36,7 @@ export default function NavBar() {
                             }
                             onClick={closeMobileMenu}
                         >
-                            Resume
+                            RESUME
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -47,7 +47,7 @@ export default function NavBar() {
                             }
                             onClick={closeMobileMenu}
                         >
-                            Contact
+                            CONTACT
                         </NavLink>
                     </li>
                 </ul>
