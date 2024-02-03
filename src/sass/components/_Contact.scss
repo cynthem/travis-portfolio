@@ -52,3 +52,68 @@
         }
     }
 }
+
+
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 1050px) {
+    .contact {
+        .contact-content {
+            .contact-grid {
+                width: 60vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        .contact-content {
+            padding-left: 0px;
+
+            .contact-grid {
+                width: 70vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .contact {
+        .contact-content {
+            .contact-grid {
+                width: 80vw;
+                .contact-row {
+                    grid-template-columns: 1fr 2fr;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        .contact-content {
+            .contact-grid {
+                width: 90vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contact {
+        .contact-content {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .contact {
+        .contact-content {
+            font-size: 15px;
+        }
+    }
+}
