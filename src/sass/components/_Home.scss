@@ -46,6 +46,10 @@
                     color: $color-light-gray;
                     text-decoration: none;
                 }
+
+                .description-text:hover {
+                    font-weight: 900;
+                }
             }
         }
     }
