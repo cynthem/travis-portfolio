@@ -1,6 +1,5 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import { NavLink, Outlet } from "react-router-dom";
 
 export default function App() {
     return (
@@ -11,7 +10,11 @@ export default function App() {
                     <h1>TRAVIS PHELPS</h1>
                     <h2>CINEMATIC ARTIST</h2>
                 </div>
-                <NavBar />
+                <div className="header-navigation">
+                    <NavLink to="/">HOME</NavLink>
+                    <NavLink to="/resume">RESUME</NavLink>
+                    <NavLink to="/contact">CONTACT</NavLink>
+                </div>
             </div>
 
             <div className="main-content"><Outlet /></div>
