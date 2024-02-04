@@ -148,6 +148,7 @@
                     left: -100%;
                     opacity: 1;
                     transition: all 0.5s ease;
+                    padding-left: 0px;
 
                     .nav-item {
                         .nav-links {
@@ -174,6 +175,104 @@
                     opacity: 1;
                     transition: all 0.6s ease;
                     z-index: 2;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .App {
+        .header {
+            .header-title {
+                h1 {
+                    font-size: 40px;
+                    margin-bottom: -8px;
+                }
+    
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .App {
+        .header {
+            height: 260px;
+            background-image: linear-gradient(to bottom, $color-gray, 75%, rgb(34, 34, 34, 0));
+
+            .header-navigation {
+                .menu-icon {
+                    transform: translate(-200%, 140%);
+                    font-size: 1.8rem;
+                }
+            }
+
+            .header-title {
+                h1 {
+                    font-size: 34px;
+                }
+    
+                h2 {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .App {
+        .header {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .App {
+        .header {
+            .header-navigation {
+                .menu-icon {
+                    transform: translate(-120%, 140%);
+                }
+            }
+
+            .header-title {
+                h1 {
+                    font-size: 30px;
+                }
+    
+                h2 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .App {
+        .header {
+            padding-left: 20px;
+            height: 240px;
+
+            .header-navigation {
+                .menu-icon {
+                    transform: translate(-100%, 120%);
+                }
+            }
+
+            .header-title {
+                h1 {
+                    font-size: 28px;
+                }
+    
+                h2 {
+                    font-size: 20px;
                 }
             }
         }
