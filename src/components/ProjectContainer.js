@@ -10,8 +10,10 @@ export default function ProjectContainer({ projects }) {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
                 setScreenSize(projects.bkgrdLg);
-            } else if (window.innerWidth < 1280) {
+            } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
                 setScreenSize(projects.bkgrdMed);
+            } else if (window.innerWidth < 900) {
+                setScreenSize(projects.bkgrdSm);
             }
         }
 
