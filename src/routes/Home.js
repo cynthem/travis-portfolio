@@ -9,13 +9,13 @@ export default function Home() {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
-                setScreenSize(projectList.project.bkgrd1280);
+                setScreenSize(projectList.bkgrd1280);
             } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
-                setScreenSize(projectList.project.bkgrd1020);
+                setScreenSize(projectList.bkgrd1020);
             } else if (window.innerWidth >= 700 && window.innerWidth < 900) {
-                setScreenSize(projectList.project.bkgrd900);
+                setScreenSize(projectList.bkgrd900);
             } else if (window.innerWidth < 700) {
-                setScreenSize(projectList.project.bkgrd750);
+                setScreenSize(projectList.bkgrd750);
             }
         }
 

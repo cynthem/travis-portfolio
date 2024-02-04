@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ projects }) {
+export default function ProjectContainer({ projects, screenSize }) {
     /*const [screenSize, setScreenSize] = useState();
 
     useEffect(() => {
