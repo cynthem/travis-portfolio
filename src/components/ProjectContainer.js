@@ -4,16 +4,18 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects }) {
-    const [screenSize, setScreenSize] = useState(projects.bkgrdLg);
+    const [screenSize, setScreenSize] = useState();
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
-                setScreenSize(projects.bkgrdLg);
+                setScreenSize(projects.bkgrd1280);
             } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
-                setScreenSize(projects.bkgrdMed);
-            } else if (window.innerWidth < 900) {
-                setScreenSize(projects.bkgrdSm);
+                setScreenSize(projects.bkgrd1020);
+            } else if (window.innerWidth >= 700 && window.innerWidth < 900) {
+                setScreenSize(projects.bkgrd900);
+            } else if (window.innerWidth < 700) {
+                setScreenSize(projects.bkgrd750);
             }
         }
 
