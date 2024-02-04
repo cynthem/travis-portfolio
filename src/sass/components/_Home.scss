@@ -102,10 +102,6 @@
 @media (max-width: 900px) {
     .home {
         .project-container {
-            .project-image {
-                //height: 25vh;
-            }
-
             .projects-display {
                 height: 50vh;
                 font-size: 22px;
@@ -121,6 +117,26 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 50vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 45vh;
             }
         }
     }
