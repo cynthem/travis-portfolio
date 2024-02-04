@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect } from "react";
 import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ projects, screenSize }) {
-    /*const [screenSize, setScreenSize] = useState();
+export default function ProjectContainer({ projects }) {
+    const [screenSize, setScreenSize] = useState();
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
                 setScreenSize(projects.bkgrd1280);
@@ -24,7 +24,7 @@ export default function ProjectContainer({ projects, screenSize }) {
         return () => {
             window.removeEventListener('resize', handleResize);
         }
-    }, []);*/
+    }, []);
 
     return (
         <div className="project-container">
