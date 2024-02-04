@@ -43,7 +43,6 @@
         }
 
         .position-section {
-
             .position-details {
                 .title-date {
                     padding-left: 10px;
@@ -162,6 +161,195 @@
                 grid-template-columns: repeat(6, 1fr);
                 row-gap: 20px;
                 text-align: center;
+            }
+        }
+    }
+}
+
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 1200px) {
+    .resume {
+        .resume-content {
+            padding-left: 12vw;
+            padding-right: 12vw;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .resume {
+        .resume-content {
+            padding-left: 8vw;
+            padding-right: 8vw;
+            font-size: 13px;
+            padding-bottom: 80px;
+
+            .position-section > h3,
+            .software-section > h3,
+            .education-section > h3 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            .position-section {
+                .position-details {
+                    .title-date {
+                        font-size: 16px;
+                    }
+
+                    .game-details {    
+                        .game-name,
+                        .no-link {
+                            font-size: 16px;
+                        }
+    
+                        .awards {    
+                            .winner {
+                                font-size: 13px;
+                            }
+                        }
+
+                        .job-duties {    
+                            h5 {
+                                font-size: 13px;
+                            }
+    
+                            .duties-list {
+                                padding-right: 80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .resume {
+        .resume-content {
+            padding-left: 6vw;
+            padding-right: 6vw;
+            gap: 60px;
+
+            .software-section {
+                margin-top: -10px;
+
+                .software-grid {
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-template-columns: repeat(4, 1fr);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .resume {
+        .resume-content {
+            padding-left: 5vw;
+            padding-right: 5vw;
+            gap: 50px;
+
+            .position-section {
+                .position-details {
+                    .game-details {    
+                        .awards {    
+                            .award-row {
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .resume {
+        .resume-content {
+            padding-left: 4vw;
+            padding-right: 4vw;
+            gap: 50px;
+
+            .position-section > h3,
+            .software-section > h3,
+            .education-section > h3 {
+                font-size: 17px;
+                margin-bottom: 15px;
+            }
+
+            .position-section {
+                .position-details {
+                    .title-date {
+                        font-size: 15px;
+                    }
+
+                    .game-details {    
+                        .game-name,
+                        .no-link {
+                            font-size: 15px;
+                        }
+
+                        .job-duties {        
+                            .duties-list {
+                                padding-right: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .resume {
+        .resume-content {
+            padding-left: 2vw;
+            padding-right: 2vw;
+            gap: 40px;
+            font-size: 12px;
+
+            .position-section > h3,
+            .software-section > h3,
+            .education-section > h3 {
+                font-size: 16px;
+            }
+
+            .position-section {
+                .position-details {
+                    .title-date {
+                        font-size: 14px;
+                    }
+
+                    .game-details {    
+                        .game-name,
+                        .no-link {
+                            font-size: 14px;
+                        }
+
+                        .awards {    
+                            .winner {
+                                font-size: 12px;
+                            }
+                        }
+
+                        .job-duties {    
+                            h5 {
+                                font-size: 12px;
+                            }
+
+                            .duties-list {
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
