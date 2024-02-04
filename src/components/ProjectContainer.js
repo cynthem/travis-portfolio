@@ -4,7 +4,7 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects }) {
-    const [screenSize, setScreenSize] = useState();
+    /*const [screenSize, setScreenSize] = useState();
 
     useEffect(() => {
         const handleResize = () => {
@@ -24,7 +24,7 @@ export default function ProjectContainer({ projects }) {
         return () => {
             window.removeEventListener('resize', handleResize);
         }
-    }, []);
+    }, []);*/
 
     return (
         <div className="project-container">
