@@ -58,7 +58,7 @@
 
 /* RESPONSIVE STYLES */
 
-@media (max-width: 1250px) {
+/*@media (max-width: 1250px) {
     .home {
         .project-container {
             .project-image {
@@ -80,17 +80,17 @@
             }
         }
     }
-}
+}*/
 
 @media (max-width: 1050px) {
     .home {
         .project-container {
             .project-image {
-                height: 45vh;
+                //height: 45vh;
             }
 
             .projects-display {
-                height: 55vh;
+                //height: 55vh;
 
                 .project {
                     width: 400px;
@@ -112,7 +112,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
     .home {
         .project-container {
             .project-image {
@@ -165,4 +165,4 @@
             }
         }
     }
-}
+}*/
