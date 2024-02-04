@@ -20,6 +20,7 @@ export default function Home() {
                         key={uniqid()}
                         projects={projects}
                         screenSize={screenSize}
+                        contentRef={ref}
                     />
                 );
             })}
