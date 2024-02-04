@@ -12,7 +12,7 @@ export default function ProjectContainer({ projects }) {
                 strength={400}
             >
             </Parallax>
-            
+
             <div className="projects-display">
                 {projects.previews.map((preview) => {
                     return (
