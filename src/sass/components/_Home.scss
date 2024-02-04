@@ -58,40 +58,13 @@
 
 /* RESPONSIVE STYLES */
 
-/*@media (max-width: 1250px) {
-    .home {
-        .project-container {
-            .project-image {
-                //height: 70vh;
-            }
-        }
-    }
-}
 
-@media (max-width: 1150px) {
-    .home {
-        .project-container {
-            .project-image {
-                //height: 60vh;
-            }
 
-            .projects-display {
-                height: 60vh;
-            }
-        }
-    }
-}*/
 
 @media (max-width: 1050px) {
     .home {
         .project-container {
-            .project-image {
-                //height: 45vh;
-            }
-
             .projects-display {
-                //height: 55vh;
-
                 .project {
                     width: 400px;
                     height: 226px;
@@ -112,21 +85,17 @@
     }
 }
 
-/*@media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .home {
         .project-container {
             .project-image {
-                height: 38vh;
-            }
-
-            .projects-display {
-                height: 62vh;
+                height: 70vh;
             }
         }
     }
 }
 
-@media (max-width: 950px) {
+/*@media (max-width: 950px) {
     .home {
         .project-container {
             .project-image {
