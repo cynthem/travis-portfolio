@@ -8,9 +8,9 @@ export default function ProjectContainer({ projects }) {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth >= 1250) {
+            if (window.innerWidth >= 1280) {
                 setScreenSize(projects.bkgrdLg);
-            } else if (window.innerWidth < 1250) {
+            } else if (window.innerWidth < 1280) {
                 setScreenSize(projects.bkgrdMed);
             }
         }

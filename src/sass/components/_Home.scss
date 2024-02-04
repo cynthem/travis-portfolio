@@ -4,11 +4,11 @@
     .project-container {
         .project-image {
             position: relative;
-            height: 80vh;
+            height: 88vh;
         }
         
         .projects-display {
-            height: 70vh;
+            height: 67vh;
             background-color: $color-gray;
             display: flex;
             justify-content: space-evenly;
@@ -59,9 +59,7 @@
 /* RESPONSIVE STYLES */
 
 
-
-
-@media (max-width: 1050px) {
+/*@media (max-width: 1050px) {
     .home {
         .project-container {
             .projects-display {
