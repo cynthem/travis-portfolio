@@ -30,7 +30,7 @@ const projectList = [
         previews: [
             {
                 name: "CURRENT", 
-                image: homeMain,
+                image: top1280,
                 link: "https://www.youtube.com/watch?v=BtyBjOW8sGY",
                 opacity: "rgba(0, 0, 0, 0.3)"
             }
@@ -44,7 +44,7 @@ const projectList = [
         previews: [
             {
                 name: "SPRING 2018", 
-                image: Spring2018,
+                image: Spring2018_1280,
                 link: "https://www.youtube.com/watch?v=O5JtTnMiJZI",
                 opacity: "rgba(0, 0, 0, 0.3)"
             },
@@ -64,7 +64,7 @@ const projectList = [
         previews: [
             {
                 name: "SUMMER 2017", 
-                image: Summer2017,
+                image: Summer2017_1280,
                 link: "https://www.youtube.com/watch?v=P8-ZbRhBvEw",
                 opacity: "rgba(0, 0, 0, 0.3)"
             },
@@ -84,7 +84,7 @@ const projectList = [
         previews: [
             {
                 name: "WINTER 2015", 
-                image: Winter2015,
+                image: Winter2015_1280,
                 link: "https://www.youtube.com/watch?v=hrpg45GefEc",
                 opacity: "rgba(0, 0, 0, 0.5)",
             },
