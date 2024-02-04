@@ -258,8 +258,7 @@
                     .game-details {    
                         .awards {    
                             .award-row {
-                                display: flex;
-                                justify-content: space-between;
+                                text-align: center;
                             }
                         }
                     }
@@ -287,6 +286,8 @@
                 .position-details {
                     .title-date {
                         font-size: 15px;
+                        gap: 10px;
+                        text-align: center;
                     }
 
                     .game-details {    
@@ -307,6 +308,8 @@
     }
 }
 
+
+
 @media (max-width: 600px) {
     .resume {
         .resume-content {
@@ -314,41 +317,25 @@
             padding-right: 2vw;
             gap: 40px;
             font-size: 12px;
+            padding-bottom: 40px;
 
-            .position-section > h3,
-            .software-section > h3,
-            .education-section > h3 {
-                font-size: 16px;
+            .software-section {
+                .software-grid {
+                    grid-template-rows: repeat(4, 1fr);
+                    grid-template-columns: repeat(3, 1fr);
+                }
             }
+        }
+    }
+}
 
-            .position-section {
-                .position-details {
-                    .title-date {
-                        font-size: 14px;
-                    }
-
-                    .game-details {    
-                        .game-name,
-                        .no-link {
-                            font-size: 14px;
-                        }
-
-                        .awards {    
-                            .winner {
-                                font-size: 12px;
-                            }
-                        }
-
-                        .job-duties {    
-                            h5 {
-                                font-size: 12px;
-                            }
-
-                            .duties-list {
-                                padding-right: 20px;
-                            }
-                        }
-                    }
+@media (max-width: 350px) {
+    .resume {
+        .resume-content {
+            .software-section {
+                .software-grid {
+                    grid-template-rows: repeat(6, 1fr);
+                    grid-template-columns: repeat(2, 1fr);
                 }
             }
         }
