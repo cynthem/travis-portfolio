@@ -54,3 +54,115 @@
         }
     }
 }
+
+
+/* RESPONSIVE STYLES */
+
+@media (max-width: 1250px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 70vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 60vh;
+            }
+
+            .projects-display {
+                height: 60vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 45vh;
+            }
+
+            .projects-display {
+                height: 55vh;
+
+                .project {
+                    width: 400px;
+                    height: 226px;
+                    
+                    .description-link {
+                        .link-image {
+                            width: 400px;
+                            height: 226px;
+                        }
+                    }
+                }
+
+                .description-text {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 38vh;
+            }
+
+            .projects-display {
+                height: 62vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 30vh;
+            }
+
+            .projects-display {
+                height: 50vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 25vh;
+            }
+
+            .projects-display {
+                height: 40vh;
+                font-size: 22px;
+
+                .project {
+                    width: 300px;
+                    height: 170px;
+                    
+                    .description-link {
+                        .link-image {
+                            width: 300px;
+                            height: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
