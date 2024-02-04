@@ -3,17 +3,17 @@ import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ projects, screenSize, contentRef }) {
+export default function ProjectContainer({ projects, imageSize, contentRef }) {
     //const ref = useRef(null);
     //const [screenSize, setScreenSize] = useState(0);
-    const [imageSize, setImageSize] = useState();
+    //const [imageSize, setImageSize] = useState();
 
     /*useLayoutEffect(() => {
         const width = ref.current;
         setScreenSize(width);
     }, []);*/
 
-    useEffect(() => {
+    /*useEffect(() => {
         const handleResize = () => {
             if (screenSize >= 1280) {
                 setImageSize(projects.bkgrd1280);
@@ -31,13 +31,13 @@ export default function ProjectContainer({ projects, screenSize, contentRef }) {
         return () => {
             window.removeEventListener('resize', handleResize);
         }
-    }, []);
+    }, []);*/
 
     return (
         <div className="project-container">
             <Parallax 
                 className="project-image" 
-                contentRef={ref}
+                ref={contentRef}
                 bgImage={imageSize}
                 strength={400}
             >
