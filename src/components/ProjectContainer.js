@@ -1,21 +1,38 @@
-import React, { useState, useEffect, useLayoutEffect } from "react";
+import React, { useState, useEffect, useLayoutEffect, useRef } from "react";
 import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects }) {
-    const [screenSize, setScreenSize] = useState();
+    const ref = useRef(null);
+    const [screenSize, setScreenSize] = useState(0);
+    const [imageSize, setImageSize] = useState();
 
     useLayoutEffect(() => {
+        const width = ref.current;
+        setScreenSize(width);
+    }, []);
+
+    if (screenSize >= 1280) {
+        setImageSize(projects.bkgrd1280);
+    } else if (screenSize >= 900 && screenSize < 1280) {
+        setImageSize(projects.bkgrd1020);
+    } else if (screenSize >= 700 && screenSize < 900) {
+        setImageSize(projects.bkgrd900);
+    } else if (screenSize < 700) {
+        setImageSize(projects.bkgrd750);
+    }
+
+    useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
-                setScreenSize(projects.bkgrd1280);
+                setImageSize(projects.bkgrd1280);
             } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
-                setScreenSize(projects.bkgrd1020);
+                setImageSize(projects.bkgrd1020);
             } else if (window.innerWidth >= 700 && window.innerWidth < 900) {
-                setScreenSize(projects.bkgrd900);
+                setImageSize(projects.bkgrd900);
             } else if (window.innerWidth < 700) {
-                setScreenSize(projects.bkgrd750);
+                setImageSize(projects.bkgrd750);
             }
         }
 
@@ -30,7 +47,7 @@ export default function ProjectContainer({ projects }) {
         <div className="project-container">
             <Parallax 
                 className="project-image" 
-                bgImage={screenSize}
+                bgImage={imageSize}
                 strength={400}
             >
             </Parallax>
