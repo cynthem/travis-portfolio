@@ -17,7 +17,7 @@ import Winter2015_750 from "../assets/images/2015_Winter_750.png";
 import Summer2012 from "../assets/images/2012_Summer_1280.png";
 
 
-const imageList = [
+/*const imageList = [
     {
         bkgrd1280: top1280,
         bkgrd1020: top1020,
@@ -47,7 +47,14 @@ const imageList = [
         bkgrd1020: ,
         bkgrd900: ,
         bkgrd750: 
-    }*/
+    }
+];*/
+
+const imageList = [
+    top1280,
+    top1020,
+    top900,
+    top750
 ];
 
 export default imageList;
