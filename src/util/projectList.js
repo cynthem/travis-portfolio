@@ -1,13 +1,17 @@
 import homeMain from "../assets/images/Home_Background.png";
 import homeMainMed from "../assets/images/Home_Background_1020.png";
+import homeMainSm from "../assets/images/Home_Background_900.png";
 import Spring2018 from "../assets/images/2018_Spring_1280.png";
 import Spring2018Med from "../assets/images/2018_Spring_1020.png";
+import Spring2018Sm from "../assets/images/2018_Spring_900.png";
 import Spring2018Ext from "../assets/images/2018_Ext_Spring_1280.png";
 import Summer2017 from "../assets/images/2017_Summer_1280.png";
 import Summer2017Med from "../assets/images/2017_Summer_1020.png";
+import Summer2017Sm from "../assets/images/2017_Summer_900.png";
 import Summer2017Ext from "../assets/images/2017_Ext_Summer_1280.png";
 import Winter2015 from "../assets/images/2015_Winter_1280.png";
 import Winter2015Med from "../assets/images/2015_Winter_1020.png";
+import Winter2015Sm from "../assets/images/2015_Winter_900.png";
 import Winter2015Ext from "../assets/images/2015_Ext_Winter_1280.png";
 import Summer2012 from "../assets/images/2012_Summer_1280.png";
 import Summer2012Anim from "../assets/images/2012_Anim_Summer_1280.png";
@@ -17,6 +21,7 @@ const projectList = [
     {
         bkgrdLg: homeMain,
         bkgrdMed: homeMainMed,
+        bkgrdSm: homeMainSm,
         previews: [
             {
                 name: "CURRENT", 
@@ -29,6 +34,7 @@ const projectList = [
     {
         bkgrdLg: Spring2018,
         bkgrdMed: Spring2018Med,
+        bkgrdSm: Spring2018Sm,
         previews: [
             {
                 name: "SPRING 2018", 
@@ -47,6 +53,7 @@ const projectList = [
     {
         bkgrdLg: Summer2017,
         bkgrdMed: Summer2017Med,
+        bkgrdSm: Summer2017Sm,
         previews: [
             {
                 name: "SUMMER 2017", 
@@ -65,6 +72,7 @@ const projectList = [
     {
         bkgrdLg: Winter2015,
         bkgrdMed: Winter2015Med,
+        bkgrdSm: Winter2015Sm,
         previews: [
             {
                 name: "WINTER 2015", 
@@ -83,6 +91,7 @@ const projectList = [
     /*{
         bkgrdLg: Summer2012,
         bkgrdMed: ,
+        bkgrdSm: ,
         previews: [
             {
                 name: "SUMMER 2012", //might need text: "password protected"
