@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ projects, screenSize }) {
+export default function ProjectContainer({ projects, screenSize, contentRef }) {
     //const ref = useRef(null);
     //const [screenSize, setScreenSize] = useState(0);
     const [imageSize, setImageSize] = useState();
@@ -37,6 +37,7 @@ export default function ProjectContainer({ projects, screenSize }) {
         <div className="project-container">
             <Parallax 
                 className="project-image" 
+                contentRef={ref}
                 bgImage={imageSize}
                 strength={400}
             >

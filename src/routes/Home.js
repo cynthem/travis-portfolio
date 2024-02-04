@@ -6,11 +6,22 @@ import projectList from "../util/projectList";
 export default function Home() {
     const ref = useRef(window.innerWidth);
     const [screenSize, setScreenSize] = useState(0);
+    const [imageSize, setImageSize] = useState();
 
     useLayoutEffect(() => {
         const width = ref.current;
         setScreenSize(width);
     }, []);
+
+    if (screenSize >= 1280) {
+        setImageSize(projects.bkgrd1280);
+    } else if (screenSize >= 900 && screenSize < 1280) {
+        setImageSize(projects.bkgrd1020);
+    } else if (screenSize >= 700 && screenSize < 900) {
+        setImageSize(projects.bkgrd900);
+    } else if (screenSize < 700) {
+        setImageSize(projects.bkgrd750);
+    }
 
     return (
         <div className="home">
@@ -19,7 +30,7 @@ export default function Home() {
                     <ProjectContainer
                         key={uniqid()}
                         projects={projects}
-                        screenSize={screenSize}
+                        imageSize={imageSize}
                         contentRef={ref}
                     />
                 );
