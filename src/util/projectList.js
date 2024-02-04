@@ -1,4 +1,5 @@
 import homeMain from "../assets/images/Home_Background.png";
+import homeMainMed from "../assets/images/Home_Background_1020.png";
 import Spring2018 from "../assets/images/2018_Spring_1280.png";
 import Spring2018Ext from "../assets/images/2018_Ext_Spring_1280.png";
 import Summer2017 from "../assets/images/2017_Summer_1280.png";
@@ -11,7 +12,8 @@ import Summer2012Anim from "../assets/images/2012_Anim_Summer_1280.png";
 
 const projectList = [
     {
-        bkgrd: homeMain,
+        bkgrdLg: homeMain,
+        bkgrdMed: homeMainMed,
         previews: [
             {
                 name: "CURRENT", 
@@ -21,7 +23,7 @@ const projectList = [
             }
         ]
     },
-    {
+    /*{
         bkgrd: Spring2018,
         previews: [
             {

@@ -4,6 +4,8 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects }) {
+
+    
     return (
         <div className="project-container">
             <Parallax 
