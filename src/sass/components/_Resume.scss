@@ -171,6 +171,12 @@
 
 @media (max-width: 1200px) {
     .resume {
+        .resume-image {
+            .transition-overlay {
+                background-image: linear-gradient(to top, $color-gray, 80%, rgb(34, 34, 34, 0));
+            }
+        }
+
         .resume-content {
             padding-left: 12vw;
             padding-right: 12vw;
@@ -229,10 +235,22 @@
 
 @media (max-width: 800px) {
     .resume {
+        min-height: 185vh;
+
+        .resume-image {
+            height: 50vh;
+
+            .transition-overlay {
+                top: 40vh;
+                background-image: linear-gradient(to top, $color-gray, 85%, rgb(34, 34, 34, 0));
+            }
+        }
+
         .resume-content {
             padding-left: 6vw;
             padding-right: 6vw;
             gap: 60px;
+            min-height: 120vh;
 
             .software-section {
                 margin-top: -10px;
