@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Parallax } from "react-parallax";
+import React from "react";
 
 export default function Projects({ preview }) {
     const overlayOpacity = {
