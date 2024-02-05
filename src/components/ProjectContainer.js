@@ -3,19 +3,32 @@ import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
-export default function ProjectContainer({ projects, imageSize, contentRef }) {
-    const [resetImageSize, setResetImageSize] = useState(imageSize.slice(1,1));
+export default function ProjectContainer({ projects, screenSize }) {
+    const [resetScreenSize, setResetScreenSize] = useState(screenSize);
+    const [imageSize, setImageSize] = useState();
+
+    useEffect(() => {
+        if (resetScreenSize >= 1280) {
+            setImageSize(projects.bkgrd1280);
+        } else if (resetScreenSize >= 900 && resetScreenSize < 1280) {
+            setImageSize(projects.bkgrd1020);
+        } else if (resetScreenSize >= 700 && resetScreenSize < 900) {
+            setImageSize(projects.bkgrd900);
+        } else if (resetScreenSize < 700) {
+            setImageSize(projects.bkgrd750);
+        }
+    }, []);
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
-                setResetImageSize(projects.bkgrd1280);
+                setImageSize(projects.bkgrd1280);
             } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
-                setResetImageSize(projects.bkgrd1020);
+                setImageSize(projects.bkgrd1020);
             } else if (window.innerWidth >= 700 && window.innerWidth < 900) {
-                setResetImageSize(projects.bkgrd900);
+                setImageSize(projects.bkgrd900);
             } else if (window.innerWidth < 700) {
-                setResetImageSize(projects.bkgrd750);
+                setImageSize(projects.bkgrd750);
             }
         }
 
@@ -30,8 +43,7 @@ export default function ProjectContainer({ projects, imageSize, contentRef }) {
         <div className="project-container">
             <Parallax 
                 className="project-image" 
-                ref={contentRef}
-                bgImage={resetImageSize}
+                bgImage={imageSize}
                 strength={400}
             >
             </Parallax>
