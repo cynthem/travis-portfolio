@@ -4,7 +4,7 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects, screenSize, contentRef }) {
-    const [imageSize, setImageSize] = useState(projects.bkgrd1020);
+    const [imageSize, setImageSize] = useState(null);
 
     useEffect(() => {
         if (screenSize >= 1280) {

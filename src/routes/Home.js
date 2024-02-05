@@ -12,6 +12,18 @@ export default function Home() {
         setScreenSize(width);
     }, []);
 
+    let imageSize = projects.bkgrd1280; 
+
+    if (screenSize >= 1280) {
+        imageSize = projects.bkgrd1280; 
+    } else if (screenSize >= 900 && screenSize < 1280) {
+        imageSize = projects.bkgrd1020; 
+    } else if (screenSize >= 700 && screenSize < 900) {
+        imageSize = projects.bkgrd900; 
+    } else if (screenSize < 700) {
+        imageSize = projects.bkgrd750; 
+    }
+
     return (
         <div className="home">
             {projectList.map((projects) => {
@@ -19,7 +31,7 @@ export default function Home() {
                     <ProjectContainer
                         key={uniqid()}
                         projects={projects}
-                        screenSize={screenSize}
+                        imageSize={imageSize}
                         contentRef={ref}
                     />
                 );
