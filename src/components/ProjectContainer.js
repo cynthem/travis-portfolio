@@ -10,11 +10,11 @@ export default function ProjectContainer({ projects, screenSize }) {
     useEffect(() => {
         if (resetScreenSize >= 1280) {
             setImageSize(projects.bkgrd1280);
-        } else if (resetScreenSize >= 900 && resetScreenSize < 1280) {
+        } else if (resetScreenSize >= 850 && resetScreenSize < 1280) {
             setImageSize(projects.bkgrd1020);
-        } else if (resetScreenSize >= 700 && resetScreenSize < 900) {
+        } else if (resetScreenSize >= 750 && resetScreenSize < 850) {
             setImageSize(projects.bkgrd900);
-        } else if (resetScreenSize >= 550 && resetScreenSize < 700) {
+        } else if (resetScreenSize >= 550 && resetScreenSize < 750) {
             setImageSize(projects.bkgrd750);
         } else if (resetScreenSize < 550) {
             setImageSize(projects.bkgrd600)
@@ -25,11 +25,11 @@ export default function ProjectContainer({ projects, screenSize }) {
         const handleResize = () => {
             if (window.innerWidth >= 1280) {
                 setImageSize(projects.bkgrd1280);
-            } else if (window.innerWidth >= 900 && window.innerWidth < 1280) {
+            } else if (window.innerWidth >= 850 && window.innerWidth < 1280) {
                 setImageSize(projects.bkgrd1020);
-            } else if (window.innerWidth >= 700 && window.innerWidth < 900) {
+            } else if (window.innerWidth >= 750 && window.innerWidth < 850) {
                 setImageSize(projects.bkgrd900);
-            } else if (resetScreenSize >= 550 && resetScreenSize < 700) {
+            } else if (resetScreenSize >= 550 && resetScreenSize < 750) {
                 setImageSize(projects.bkgrd750);
             } else if (resetScreenSize < 550) {
                 setImageSize(projects.bkgrd600)
