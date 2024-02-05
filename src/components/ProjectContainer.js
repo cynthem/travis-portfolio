@@ -4,7 +4,7 @@ import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects, imageSize, contentRef }) {
-    const [resetImageSize, setResetImageSize] = useState(imageSize);
+    const [resetImageSize, setResetImageSize] = useState(imageSize.slice(1,1));
 
     useEffect(() => {
         const handleResize = () => {
