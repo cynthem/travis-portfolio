@@ -121,3 +121,13 @@
         }
     }
 }
+
+@media (max-width: 550px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 40vh;
+            }
+        }
+    }
+}
