@@ -14,9 +14,9 @@ export default function ProjectContainer({ projects, screenSize }) {
             setImageSize(projects.bkgrd1020);
         } else if (resetScreenSize >= 750 && resetScreenSize < 850) {
             setImageSize(projects.bkgrd900);
-        } else if (resetScreenSize >= 550 && resetScreenSize < 750) {
+        } else if (resetScreenSize >= 600 && resetScreenSize < 750) {
             setImageSize(projects.bkgrd750);
-        } else if (resetScreenSize < 550) {
+        } else if (resetScreenSize < 600) {
             setImageSize(projects.bkgrd600)
         }
     }, []);
@@ -29,9 +29,9 @@ export default function ProjectContainer({ projects, screenSize }) {
                 setImageSize(projects.bkgrd1020);
             } else if (window.innerWidth >= 750 && window.innerWidth < 850) {
                 setImageSize(projects.bkgrd900);
-            } else if (resetScreenSize >= 550 && resetScreenSize < 750) {
+            } else if (resetScreenSize >= 600 && resetScreenSize < 750) {
                 setImageSize(projects.bkgrd750);
-            } else if (resetScreenSize < 550) {
+            } else if (resetScreenSize < 600) {
                 setImageSize(projects.bkgrd600)
             }
         }

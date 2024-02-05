@@ -116,6 +116,7 @@
         .project-container {
             .projects-display {
                 height: 70vh;
+                flex-direction: column;
             }
         }
     }
