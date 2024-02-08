@@ -16,8 +16,10 @@ export default function ProjectContainer({ projects, screenSize }) {
             setImageSize(projects.bkgrd900);
         } else if (resetScreenSize >= 600 && resetScreenSize < 750) {
             setImageSize(projects.bkgrd750);
-        } else if (resetScreenSize < 600) {
+        } else if (resetScreenSize >= 450 && resetScreenSize < 600) {
             setImageSize(projects.bkgrd600)
+        } else if (resetScreenSize < 450) {
+            setImageSize(projects.bkgrd450)
         }
     }, []);
 
@@ -31,8 +33,10 @@ export default function ProjectContainer({ projects, screenSize }) {
                 setImageSize(projects.bkgrd900);
             } else if (window.innerWidth >= 600 && window.innerWidth < 750) {
                 setImageSize(projects.bkgrd750);
-            } else if (window.innerWidth < 600) {
+            } else if (window.innerWidth >= 450 && window.innerWidth < 600) {
                 setImageSize(projects.bkgrd600)
+            } else if (window.innerWidth < 450) {
+                setImageSize(projects.bkgrd450)
             }
         }
 
