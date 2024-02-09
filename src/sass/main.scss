@@ -17,3 +17,44 @@ body {
     font-family: $font-lato;
     color: $color-light-gray;
 }
+
+.bottom-scroll {
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-gray;
+
+    .scroll-button {
+        background-color: $color-gray;
+        color: $color-green;
+        font-family: $font-open-sans;
+        font-size: 17px;
+        font-weight: 300;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        cursor: pointer;
+    }
+
+    .scroll-button:hover {
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bottom-scroll {    
+        .scroll-button {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .bottom-scroll {    
+        .scroll-button {
+            font-size: 14px;
+        }
+    }
+}
