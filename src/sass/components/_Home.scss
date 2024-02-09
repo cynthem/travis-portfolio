@@ -131,3 +131,26 @@
         }
     }
 }
+
+@media (max-width: 350px) {
+    .home {
+        .project-container {
+            .projects-display {
+                font-size: 20px;
+                height: 60vh;
+
+                .project {
+                    width: 270px;
+                    height: 152px;
+                    
+                    .description-link {
+                        .link-image {
+                            width: 270px;
+                            height: 152px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
