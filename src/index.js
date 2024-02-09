@@ -1,8 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import NavBar from "./components/NavBar";
 import ErrorPage from "./routes/ErrorPage";
+import NavBar from "./components/NavBar";
+import ScrollButton from "./components/ScrollButton";
 import Home from "./routes/Home";
 import Resume from "./routes/Resume";
 import Contact from "./routes/Contact";
@@ -11,7 +12,6 @@ import "./sass/main.scss";
 const App = () => {
     return (
         <div className="App">
-
             <div className="header">
                 <div className="header-title">
                     <h1>TRAVIS PHELPS</h1>
@@ -21,6 +21,8 @@ const App = () => {
             </div>
 
             <div className="main-content"><Outlet /></div>
+
+            <ScrollButton />
 
             <div className="footer">
                 <p>© 2024 TRAVIS PHELPS</p>
