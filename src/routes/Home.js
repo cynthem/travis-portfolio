@@ -1,6 +1,7 @@
 import React, { useRef, useLayoutEffect, useState } from "react";
 import uniqid from "uniqid";
 import ProjectContainer from "../components/ProjectContainer";
+import ScrollButton from "../components/ScrollButton";
 import projectList from "../util/projectList";
 
 export default function Home() {
@@ -24,6 +25,8 @@ export default function Home() {
                     />
                 );
             })}
+            
+            <ScrollButton />
         </div>
     );
 }
