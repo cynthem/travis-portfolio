@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
+import ScrollButton from "../components/ScrollButton";
 import resumeBackground from "../assets/images/Resume_Background_1280.png";
 
 export default function Resume() {
@@ -393,6 +394,8 @@ export default function Resume() {
                     <p>Art Institute Seattle AAA Computer Animation</p>
                 </div>
             </div>
+
+            <ScrollButton />
         </div>
     );
 }
