@@ -15,16 +15,21 @@ export default function Home() {
 
     return (
         <div className="home">
-            {projectList.map((projects) => {
-                return (
-                    <ProjectContainer
-                        key={uniqid()}
-                        projects={projects}
-                        screenSize={screenSize}
-                        contentRef={ref}
-                    />
-                );
-            })}
+            {screenSize > 500 
+
+                ? projectList.map((projects) => {
+                    return (
+                        <ProjectContainer
+                            key={uniqid()}
+                            projects={projects}
+                            screenSize={screenSize}
+                            contentRef={ref}
+                        />
+                    );
+                })
+
+                : <ScrollButton />
+            }
             
             <ScrollButton />
         </div>
