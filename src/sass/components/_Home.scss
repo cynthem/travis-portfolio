@@ -7,6 +7,15 @@
             height: 88vh;
         }
         
+        .mobile-background {
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 52vh;
+        }
+
         .projects-display {
             height: 67vh;
             background-color: $color-gray;
