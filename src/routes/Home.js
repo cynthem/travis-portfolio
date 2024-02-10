@@ -1,6 +1,7 @@
 import React, { useRef, useLayoutEffect, useState } from "react";
 import uniqid from "uniqid";
 import ProjectContainer from "../components/ProjectContainer";
+import MobileProjects from "../components/MobileProjects";
 import ScrollButton from "../components/ScrollButton";
 import projectList from "../util/projectList";
 
@@ -28,7 +29,14 @@ export default function Home() {
                     );
                 })
 
-                : <ScrollButton />
+                : projectList.map((projects) => {
+                    return (
+                        <MobileProjects
+                            key={uniqid()}
+                            projects={projects}
+                        />
+                    );
+                })
             }
             
             <ScrollButton />
