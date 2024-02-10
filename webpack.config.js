@@ -12,7 +12,10 @@ module.exports = {
         assetModuleFilename: 'assets/[hash][ext][query]'
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: path.join(__dirname, "public", "index.html")}),
+        new HtmlWebpackPlugin({ 
+            template: path.join(__dirname, "public", "index.html"),
+            favicon: "./src/assets/images/favicon.ico"
+        }),
         new MiniCssExtractPlugin(),
         new CssMinimizerPlugin()
     ],
