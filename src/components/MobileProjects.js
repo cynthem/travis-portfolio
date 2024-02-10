@@ -1,18 +1,15 @@
 import React from "react";
-import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
 import Projects from "./Projects";
 
 export default function MobileProjects({ projects }) {
     return (
         <div className="project-container">
-            
-            <Parallax 
+            <div 
                 className="mobile-background" 
-                bgImage={projects.bkgrd450}
-                strength={0}
+                style={{ backgroundImage: `url("${projects.bkgrd450}")` }}
             >
-            </Parallax>
+            </div>
 
             <div className="projects-display">
                 {projects.previews.map((preview) => {
