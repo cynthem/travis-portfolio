@@ -7,7 +7,7 @@ export default function MobileProjects({ projects }) {
         <div className="project-container">
             <div 
                 className="mobile-background" 
-                style={{ backgroundImage: `url(${projects.bkgrd450})` }}
+                style={{ backgroundImage: `url("${projects.bkgrd450}")` }}
             >
             </div>
 
