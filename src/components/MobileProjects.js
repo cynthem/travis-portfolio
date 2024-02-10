@@ -10,7 +10,7 @@ export default function MobileProjects({ projects }) {
             <Parallax 
                 className="mobile-background" 
                 bgImage={projects.bkgrd450}
-                //strength={0}
+                strength={0}
             >
             </Parallax>
 
