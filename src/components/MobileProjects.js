@@ -1,6 +1,6 @@
 import React from "react";
 import uniqid from "uniqid";
-import Projects from "./Projects";
+import Projects from "../components/Projects";
 
 export default function MobileProjects({ projects }) {
     return (
