@@ -16,7 +16,7 @@ export default function Projects({ preview }) {
                 <img 
                     className="link-image"
                     src={preview.image} 
-                    alt="Project image" 
+                    alt="Cinematic scene" 
                 />
             </a>
             <div className="image-overlay" style={overlayOpacity}></div>
