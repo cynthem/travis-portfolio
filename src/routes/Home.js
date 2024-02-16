@@ -29,14 +29,22 @@ export default function Home() {
                     );
                 })
 
-                : projectList.map((projects) => {
-                    return (
-                        <MobileProjects
-                            key={uniqid()}
-                            projects={projects}
-                        />
-                    );
-                })
+                : <div className="mobile-home">
+                    <div 
+                        className="mobile-background"
+                        style={{ backgroundImage: `url("${projectList[0].bkgrd450}")` }}
+                    >
+                    </div>
+
+                    {projectList.map((projects) => {
+                        return (
+                            <MobileProjects
+                                key={uniqid()}
+                                projects={projects}
+                            />
+                        );
+                    })}
+                </div>
             }
             
             <ScrollButton />
