@@ -235,6 +235,15 @@
     .App {
         .header {
             padding-left: 30px;
+            position: fixed;
+            top: 0;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+            height: 34px;
         }
     }
 }
