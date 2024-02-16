@@ -244,6 +244,13 @@
             bottom: 0;
             width: 100vw;
             height: 34px;
+            color: rgb(117, 117, 117);
+
+            p {
+                .footer-link {
+                    color: #009078;
+                }
+            }
         }
     }
 }
