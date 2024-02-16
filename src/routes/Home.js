@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
             }
             
-            <ScrollButton />
+            {screenSize > 500 && <ScrollButton />}
         </div>
     );
 }
