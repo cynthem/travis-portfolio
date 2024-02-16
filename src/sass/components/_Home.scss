@@ -4,7 +4,7 @@
     background-color: $color-gray;
 
     .mobile-background {
-        max-height: 100vh;
+        max-height: calc(100vh - 34px);
         overflow-y: scroll;
         background-repeat: no-repeat;
         background-size: cover;
@@ -15,6 +15,10 @@
 
         .mobile-project-container:first-child {
             padding-top: 50vh;
+        }
+
+        .mobile-project-container:last-child {
+            padding-bottom: 35vh;
         }
 
         .mobile-project-container {
