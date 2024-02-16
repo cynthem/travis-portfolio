@@ -3,13 +3,14 @@
 .home {
     background-color: $color-gray;
 
-    .mobile-home {
-        background-color: $color-gray;
-        
-        .mobile-background {
-            
-            height: 52vh;
-        }
+    .mobile-background {
+        height: 100vh;
+        //background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        //height: 100%; 
+        //width: 100%;
     }
 
     .project-container {
