@@ -8,16 +8,14 @@
         }
         
         .mobile-background {
-            position: fixed;
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat; 
-            //background-attachment: fixed;
+            background-attachment: fixed;
             height: 52vh;
         }
 
         .projects-display {
-            margin-top: 67vh;
             height: 67vh;
             background-color: $color-gray;
             display: flex;
