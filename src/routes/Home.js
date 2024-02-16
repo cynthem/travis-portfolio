@@ -29,13 +29,10 @@ export default function Home() {
                     );
                 })
 
-                : <div className="mobile-home">
-                    <div 
-                        className="mobile-background"
-                        style={{ backgroundImage: `url("${projectList[0].bkgrd450}")` }}
-                    >
-                    </div>
-
+                : <div 
+                    className="mobile-background"
+                    style={{ backgroundImage: `url("${projectList[0].bkgrd450}")` }}
+                >
                     {projectList.map((projects) => {
                         return (
                             <MobileProjects

@@ -1,15 +1,23 @@
 @import "../helpers/variables";
 
 .home {
-    .project-container {
-        .project-image {
-            position: relative;
-            height: 88vh;
-        }
+    background-color: $color-gray;
+
+    .mobile-home {
+        background-color: $color-gray;
         
         .mobile-background {
             
             height: 52vh;
+        }
+    }
+
+    .project-container {
+        background-color: $color-gray;
+
+        .project-image {
+            position: relative;
+            height: 88vh;
         }
 
         .projects-display {
