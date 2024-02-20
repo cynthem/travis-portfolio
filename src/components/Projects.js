@@ -7,26 +7,43 @@ export default function Projects({ preview }) {
 
     return (
         <div className="project">
-            <a
-                className="description-link"
-                href={preview.link}
-                target="_blank" 
-                rel="noopener noreferrer"
-            >
-                <img 
-                    className="link-image"
-                    src={preview.image} 
-                    alt="Cinematic scene" 
-                />
-            </a>
-            <div className="image-overlay" style={overlayOpacity}></div>
-            <a className="description-text"
-                href={preview.link}
-                target="_blank" 
-                rel="noopener noreferrer"
-            >
-                {preview.name}
-            </a>
+            {preview.art 
+                ? <div className="older-projects">
+                    <a
+                        className="description-link"
+                        href={preview.link}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <img 
+                            className="link-image"
+                            src={preview.image} 
+                            alt="Cinematic scene" 
+                        />
+                    </a>
+                    <div className="image-overlay" style={overlayOpacity}></div>
+                    <a className="description-text"
+                        href={preview.link}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        {preview.name}
+                    </a>
+                </div>
+                
+                : <div className="current-project">
+                    <h3>CURRENT PROJECT</h3>
+                    <iframe
+                        className="youtube-link"
+                        src="https://www.youtube.com/embed/BtyBjOW8sGY?si=-aHRqSJXEeynQrJM" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen
+                    >
+                    </iframe>
+                </div>
+            }
         </div>
     );
 }
