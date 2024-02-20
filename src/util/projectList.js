@@ -39,7 +39,6 @@ const projectList = [
         bkgrd450: top450,
         previews: [
             {
-                art: false,
                 name: "CURRENT", 
                 image: top1280,
                 link: "https://www.youtube.com/watch?v=BtyBjOW8sGY",
@@ -56,14 +55,12 @@ const projectList = [
         bkgrd450: Spring2018_450,
         previews: [
             {
-                art: true,
                 name: "SPRING 2018", 
                 image: Spring2018_1280,
                 link: "https://www.youtube.com/watch?v=O5JtTnMiJZI",
                 opacity: "rgba(0, 0, 0, 0.3)"
             },
             {
-                art: true,
                 name: "SPRING 2018 (EXTENDED LOOK)", 
                 image: Spring2018Ext,
                 link: "https://www.youtube.com/playlist?list=PLU2WZX3219GEsYOhTEvT35yhaSV6RSZiN",
@@ -80,14 +77,12 @@ const projectList = [
         bkgrd450: Summer2017_450,
         previews: [
             {
-                art: true,
                 name: "SUMMER 2017", 
                 image: Summer2017_1280,
                 link: "https://www.youtube.com/watch?v=P8-ZbRhBvEw",
                 opacity: "rgba(0, 0, 0, 0.3)"
             },
             {
-                art: true,
                 name: "SUMMER 2017 (EXTENDED LOOK)", 
                 image: Summer2017Ext,
                 link: "https://www.youtube.com/watch?v=w2MgtpujpFg",
@@ -104,14 +99,12 @@ const projectList = [
         bkgrd450: Winter2015_450,
         previews: [
             {
-                art: true,
                 name: "WINTER 2015", 
                 image: Winter2015_1280,
                 link: "https://www.youtube.com/watch?v=hrpg45GefEc",
                 opacity: "rgba(0, 0, 0, 0.5)",
             },
             {
-                art: true,
                 name: "WINTER 2015 (EXTENDED LOOK)", 
                 image: Winter2015Ext,
                 link: "https://www.youtube.com/watch?v=FzDd-789_AU",
@@ -128,14 +121,12 @@ const projectList = [
         bkgrd450: ,
         previews: [
             {
-                art: true,
                 name: "SUMMER 2012", //might need text: "password protected"
                 image: Summer2012,
                 link: "https://vimeo.com/46781496", //link to private vid
                 opacity: "rgba(0, 0, 0, 0.3)"
             },
             {
-                art: true,
                 name: "SUMMER 2012 (ANIMATION)", 
                 image: Summer2012Anim,
                 link: "https://vimeo.com/46656578",
