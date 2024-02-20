@@ -71,8 +71,6 @@ export default function ProjectContainer({ projects, screenSize }) {
 
                 : <TopProject />
             }
-
-            
         </div>
     );
 }
