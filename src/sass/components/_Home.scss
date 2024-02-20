@@ -14,7 +14,7 @@
         gap: 25vh;
 
         .mobile-project-container:first-child {
-            padding-top: 40vh;
+            padding-top: 46vh;
         }
 
         .mobile-project-container:last-child {
@@ -23,7 +23,7 @@
 
         .mobile-project-container {
             .mobile-projects-display {
-                font-size: 16px;
+                font-size: 18px;
                 height: 420px;
                 background-color: rgb(34, 34, 34, 0.6);
                 display: flex;
@@ -36,6 +36,23 @@
                     width: 300px;
                     height: 170px;
                     text-align: center;
+
+                    .current-project {
+                        position: relative;
+    
+                        h3 {
+                            position: absolute;
+                            top: 0%;
+                            left: 50%;
+                            transform: translate(-50%, -150%);
+                            width: 300px;
+                        }
+    
+                        .youtube-link {
+                            width: 300px;
+                            height: 170px;
+                        }
+                    }
                     
                     .description-link {
                         .link-image {
@@ -91,6 +108,23 @@
                 width: 500px;
                 height: 282px;
                 text-align: center;
+
+                .current-project {
+                    position: relative;
+
+                    h3 {
+                        position: absolute;
+                        top: 0%;
+                        left: 50%;
+                        transform: translate(-50%, -120%);
+                        width: 500px;
+                    }
+
+                    .youtube-link {
+                        width: 500px;
+                        height: 282px;
+                    }
+                }
                 
                 .description-link {
                     .link-image {
@@ -143,6 +177,18 @@
                 .project {
                     width: 400px;
                     height: 226px;
+
+                    .current-project {    
+                        h3 {
+                            width: 400px;
+                            font-size: 30px;
+                        }
+    
+                        .youtube-link {
+                            width: 400px;
+                            height: 226px;
+                        }
+                    }
                     
                     .description-link {
                         .link-image {
@@ -169,6 +215,18 @@
                 .project {
                     width: 300px;
                     height: 170px;
+
+                    .current-project {    
+                        h3 {
+                            width: 300px;
+                            font-size: 26px;
+                        }
+    
+                        .youtube-link {
+                            width: 300px;
+                            height: 170px;
+                        }
+                    }
                     
                     .description-link {
                         .link-image {
@@ -188,6 +246,14 @@
             .projects-display {
                 height: 70vh;
                 flex-direction: column;
+
+                .project {
+                    .current-project {    
+                        h3 {
+                            transform: translate(-50%, -150%);
+                        }
+                    }
+                }
             }
         }
     }
