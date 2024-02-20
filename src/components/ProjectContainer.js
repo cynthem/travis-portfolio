@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Parallax } from "react-parallax";
 import uniqid from "uniqid";
+import TopProject from "./TopProject";
 import Projects from "./Projects";
 
 export default function ProjectContainer({ projects, screenSize }) {
@@ -56,16 +57,22 @@ export default function ProjectContainer({ projects, screenSize }) {
             >
             </Parallax>
 
-            <div className="projects-display">
-                {projects.previews.map((preview) => {
-                    return (
-                        <Projects 
-                            key={uniqid()}
-                            preview={preview}
-                        />
-                    );
-                })}
-            </div>
+            {projects.previews.art
+                ? <div className="projects-display">
+                    {projects.previews.map((preview) => {
+                        return (
+                            <Projects 
+                                key={uniqid()}
+                                preview={preview}
+                            />
+                        );
+                    })}
+                </div>
+
+                : <TopProject />
+            }
+
+            
         </div>
     );
 }
