@@ -1,32 +1,19 @@
 import React from "react";
 
-export default function TopProject({ preview }) {
-    const overlayOpacity = {
-        backgroundColor: preview.opacity || 'rgba(0, 0, 0, 0.3)'
-    }
-
+export default function TopProject() {
     return (
-        <div className="project">
-            <a
-                className="description-link"
-                href={preview.link}
-                target="_blank" 
-                rel="noopener noreferrer"
+        <div className="top-project">
+            <h3 className="top-description-text">CURRENT PROJECT</h3>
+
+            <iframe
+                className="top-description-link"
+                title="YouTube video player"
+                src="https://www.youtube.com/embed/BtyBjOW8sGY?si=-aHRqSJXEeynQrJM"  
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen
             >
-                <img 
-                    className="link-image"
-                    src={preview.image} 
-                    alt="Cinematic scene" 
-                />
-            </a>
-            <div className="image-overlay" style={overlayOpacity}></div>
-            <a className="description-text"
-                href={preview.link}
-                target="_blank" 
-                rel="noopener noreferrer"
-            >
-                {preview.name}
-            </a>
+            </iframe>
         </div>
     );
 }
