@@ -123,10 +123,24 @@
 
 /* RESPONSIVE STYLES */
 
-@media screen and (min-width: 1520px) {
+/*@media screen and (min-width: 2550px) {
     .App {
         padding-left: 10vw;
         padding-right: 10vw;
+    }
+}*/
+
+@media screen and (min-width: 1921px) {
+    .App {
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+        .header {
+            //width: 100vw;
+            padding-left: 10vw;
+            padding-right: 10vw;
+            //padding-bottom: 0px;
+        }
 
         .footer {
             padding-left: 10px;
