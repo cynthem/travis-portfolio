@@ -123,23 +123,29 @@
 
 /* RESPONSIVE STYLES */
 
-/*@media screen and (min-width: 2550px) {
+@media screen and (min-width: 2550px) {
     .App {
-        padding-left: 10vw;
-        padding-right: 10vw;
-    }
-}*/
+        padding-left: 15vw;
+        padding-right: 15vw;
 
-@media screen and (min-width: 1921px) {
+        .header {
+            padding-right: 35vw;
+        }
+
+        .footer {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2549px) {
     .App {
         padding-left: 10vw;
         padding-right: 10vw;
 
         .header {
-            //width: 100vw;
-            padding-left: 10vw;
-            padding-right: 10vw;
-            //padding-bottom: 0px;
+            padding-right: 25vw;
         }
 
         .footer {
