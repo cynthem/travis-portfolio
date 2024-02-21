@@ -162,6 +162,53 @@
 
 /* RESPONSIVE STYLES */
 
+@media (min-width: 3008px) {
+    .home {
+        .project-container {
+            .projects-display {
+                font-size: 36px;
+    
+                .project {
+                    width: 800px;
+                    height: 451px;
+    
+                    .current-project {
+                        h3 {
+                            transform: translate(-50%, -150%);
+                            width: 800px;
+                        }
+    
+                        .youtube-link {
+                            width: 800px;
+                            height: 451px;
+                        }
+                    }
+                    
+                    .description-link {
+                        .link-image {
+                            width: 800px;
+                            height: 451px;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+}
+
+@media (min-width: 2560px) {
+    .home {
+        .project-container {
+            .project-image {
+                height: 70vh;
+            }
+
+            .projects-display {
+                height: 50vh;
+            }
+        }
+    }            
+}
 
 @media (max-width: 1050px) {
     .home {
