@@ -13,7 +13,7 @@ export default function Contact() {
                 <div className="contact-grid">
                     <div className="contact-row">
                         <p className="contact-type">EMAIL</p>
-                        <a href="mailto:travis@travisphelps.com">travis@travisphelps.com</a>
+                        <a href="mailto:tjpdigital@gmail.com">travis@travisphelps.com</a>
                     </div>
                     <div className="contact-row">
                         <p className="contact-type">PHONE</p>
