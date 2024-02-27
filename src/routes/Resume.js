@@ -15,7 +15,7 @@ export default function Resume() {
                     <h3>Warner Bros / Avalanche Software</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title">Master Cinematic Artist</h4>
+                            <h4 className="job-title">Senior Advanced Cinematic Artist</h4>
                             <p className="job-date">October 2019 - Current</p>
                         </div>
                         <div className="game-details">
@@ -35,7 +35,7 @@ export default function Resume() {
                     <h3>Warner Bros / Monolith Productions</h3>
                     <div className="position-details">
                         <div className="title-date">
-                            <h4 className="job-title">Master Cinematic Artist</h4>
+                            <h4 className="job-title">Senior Advanced Cinematic Artist</h4>
                             <p className="job-date">February 2015 - October 2019</p>
                         </div>
                         <div className="game-details">
