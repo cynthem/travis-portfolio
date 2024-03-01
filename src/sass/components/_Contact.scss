@@ -2,17 +2,16 @@
 
 .contact {
     background-color: $color-gray;
-    height: 110vh;
 
     .contact-image {
         position: relative;
-        height: 70vh;
+        height: 525px;
 
         .transition-overlay {
             position: absolute;
-            top: 50vh;
+            top: 377px;
             z-index: 2;
-            height: 20vh;
+            height: 150px;
             width: 100vw;
             background-image: linear-gradient(to top, $color-gray, 85%, rgb(34, 34, 34, 0));
         }
@@ -20,7 +19,7 @@
 
     .contact-content {
         width: 100vw;
-        height: 40vh;
+        //height: 300px;
         display: flex;
         justify-content: center;
         padding-top: 40px;
@@ -59,6 +58,13 @@
 
 @media (max-width: 850px) {
     .contact {
+        .contact-image {
+            .transition-overlay {
+                top: 300px;
+                height: 250px;
+            }
+        }
+
         .contact-content {
             .contact-grid {
                 .contact-row {
@@ -69,21 +75,19 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .contact {
-        height: 100vh;
-
         .contact-image {
-            height: 50vh;
+            height: 300px;
 
             .transition-overlay {
-                top: 40vh;
+                //top: 40vh;
                 background-image: linear-gradient(to top, $color-gray, 90%, rgb(34, 34, 34, 0));
             }
         }
 
         .contact-content {
-            height: 50vh;
+            height: 400px;
 
             .contact-grid {
                 padding-top: 40px;
