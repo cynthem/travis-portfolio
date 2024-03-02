@@ -2,23 +2,21 @@
 
 .resume {
     background-color: $color-gray;
-    min-height: 200vh;
 
     .resume-image {
         position: relative;
-        height: 65vh;
+        height: 490px;
 
         .transition-overlay {
             position: absolute;
-            top: 50vh;
-            height: 15vh;
+            top: 377px;
+            height: 113px;
             width: 100vw;
             background-image: linear-gradient(to top, $color-gray, 70%, rgb(34, 34, 34, 0));
         }
     }
 
     .resume-content {
-        min-height: 135vh;
         padding-left: 18vw;
         padding-right: 18vw;
         display: flex;
@@ -234,13 +232,11 @@
 
 @media (max-width: 800px) {
     .resume {
-        min-height: 185vh;
-
         .resume-image {
-            height: 50vh;
+            height: 377px;
 
             .transition-overlay {
-                top: 40vh;
+                top: 300px;
                 background-image: linear-gradient(to top, $color-gray, 85%, rgb(34, 34, 34, 0));
             }
         }
@@ -249,7 +245,6 @@
             padding-left: 6vw;
             padding-right: 6vw;
             gap: 60px;
-            min-height: 120vh;
 
             .software-section {
                 margin-top: -10px;
