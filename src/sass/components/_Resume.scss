@@ -11,7 +11,7 @@
             position: absolute;
             top: 377px;
             height: 113px;
-            width: 100vw;
+            width: 100%;
             background-image: linear-gradient(to top, $color-gray, 70%, rgb(34, 34, 34, 0));
         }
     }
@@ -165,6 +165,22 @@
 
 
 /* RESPONSIVE STYLES */
+
+@media (min-width: 1500px) {
+    .resume {
+        .resume-image {
+            height: 700px;
+    
+            .transition-overlay {
+                top: 590px;
+            }
+        }
+        .resume-content {
+            padding-left: 13vw;
+            padding-right: 13vw;
+        }
+    }
+}
 
 @media (max-width: 1200px) {
     .resume {
