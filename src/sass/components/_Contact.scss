@@ -13,13 +13,13 @@
             top: 377px;
             z-index: 2;
             height: 150px;
-            width: 100vw;
+            width: 100%;
             background-image: linear-gradient(to top, $color-gray, 85%, rgb(34, 34, 34, 0));
         }
     }
 
     .contact-content {
-        width: 100vw;
+        width: 100%;
         height: 360px;
         display: flex;
         justify-content: center;
@@ -56,6 +56,22 @@
 
 
 /* RESPONSIVE STYLES */
+
+@media (min-width: 1500px) {
+    .contact {
+        .contact-image {
+            height: 700px;
+
+            .transition-overlay {
+                top: 600px;
+            }
+        }
+
+        .contact-content {
+            padding-top: 100px;
+        }
+    }
+}
 
 @media (max-width: 850px) {
     .contact {
