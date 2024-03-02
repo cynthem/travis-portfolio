@@ -19,11 +19,13 @@
 .App {
     background-color: $color-gray;
     position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
 
     .header {
         position: absolute;
         top: 0;
-        width: 100vw;
+        width: 100%;
         z-index: 2;
         height: 300px;
         display: flex;
@@ -119,7 +121,7 @@
 
 /* RESPONSIVE STYLES */
 
-@media screen and (min-width: 2560px) {
+/*@media screen and (min-width: 2560px) {
     .App {
         padding-left: 15vw;
         padding-right: 15vw;
@@ -149,7 +151,7 @@
             padding-right: 10px;
         }
     }
-}
+}*/
 
 @media screen and (max-width: 900px) {
     .App {
